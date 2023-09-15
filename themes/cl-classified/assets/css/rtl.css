@@ -1,0 +1,112 @@
+/*-------------------------------------
+#. General
+---------------------------------------*/
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+.rtcl .rtcl-listings-actions .rtcl-result-count {
+	margin-right: inherit;
+	margin-left: auto;
+}
+
+.rtcl-widget-filter-class .panel-block .rtcl-filter-form .ui-accordion-item .ui-accordion-icon {
+	float: left;
+}
+
+.rtcl-widget-filter-class .panel-block ul.filter-list li:not(.is-parent) a {
+	padding-right: 10px;
+}
+
+.rtcl-widget-filter-class .panel-block ul.filter-list li:not(.is-parent) a::before {
+	left: auto;
+	right: 0;
+	transform: rotate(180deg);
+}
+
+.rtcl-widget-filter-class .panel-block .rtcl-filter-form .ui-link-tree-item .ui-checkbox {
+	left: auto;
+	right: 0;
+	margin-right: 0;
+}
+
+.rtcl-widget-filter-class .panel-block .rtcl-filter-form .ui-link-tree-item .filter-submit-trigger {
+	padding-right: 18px;
+}
+
+.rtcl .listing-thumb .listing-thumb-inner .rtcl-meta-buttons {
+	left: auto;
+	right: 15px;
+}
+
+.rtcl-qvw .rtcl-quick-view-container .rtcl-qv-row .rtcl-qv-summary .custom-field-properties,
+.rtcl-quick-view-container .rtcl-listing-meta-data li,
+.rtcl-quick-view-container .rtcl-qv-summary .rtcl-qv-title {
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+#rtcl-compare-wrap .rtcl-compare-item img {
+	margin-right: 0;
+	margin-left: 15px;
+}
+
+#rtcl-compare-wrap .rtcl-compare-item h4.rtcl-compare-item-title {
+	flex: 1;
+	max-width: initial;
+}
+
+#rtcl-compare-wrap #rtcl-compare-panel-btn {
+	left: -20px;
+	right: auto;
+}
+
+.rtcl-listing-badge-wrap span.badge {
+	margin-right: 0;
+	margin-left: 4px;
+}
+
+.rtcl .rtcl-wrapper .listing-sidebar .rtcl-listing-user-info .list-group .list-group-item.rtcl-do-email .media-body .rtcl-do-email-link:before {
+	position: absolute;
+}
+
+.rtcl .rtcl-wrapper .listing-sidebar .rtcl-listing-user-info .list-group .list-group-item.rtcl-do-email .media-body .rtcl-do-email-link span {
+	padding-right: 25px;
+}
+
+.rtcl .rtcl-wrapper .listing-sidebar .rtcl-listing-user-info .list-group .list-group-item.rtcl-contact-seller .rtcl-website-link:before,
+.rtcl .rtcl-wrapper .listing-sidebar .rtcl-listing-user-info .list-group .list-group-item.rtcl-website .rtcl-website-link:before {
+	position: absolute;
+	right: 16px;
+}
+
+.rtcl .rtcl-wrapper .listing-sidebar .rtcl-listing-user-info .list-group .list-group-item.rtcl-contact-seller .rtcl-chat-link,
+.rtcl .rtcl-wrapper .listing-sidebar .rtcl-listing-user-info .list-group .list-group-item.rtcl-contact-seller .rtcl-website-link,
+.rtcl .rtcl-wrapper .listing-sidebar .rtcl-listing-user-info .list-group .list-group-item.rtcl-website .rtcl-chat-link,
+.rtcl .rtcl-wrapper .listing-sidebar .rtcl-listing-user-info .list-group .list-group-item.rtcl-website .rtcl-website-link {
+	padding-right: 40px;
+}
+
+.rtcl .listing-sidebar .rtcl-listing-user-info .list-group .list-group-item.rtcl-user-status.online>span:before {
+	left: auto;
+	right: 0;
+}
+
+.rtcl .listing-sidebar .rtcl-listing-user-info .list-group .list-group-item.rtcl-user-status>span {
+	padding-left: 0;
+	padding-right: 25px;
+}
+
+.sidebar-widget-area .widget ul li:before {
+	transform: rotate(180deg);
+}
+
+.pagination-number ul li a i {
+	transform: rotate(180deg);
+}
+
+.rtcl nav.rtcl-pagination ul li .page-numbers.prev,
+.rtcl nav.rtcl-pagination ul li .page-numbers.next {
+	transform: rotate(180deg);
+}

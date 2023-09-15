@@ -1,0 +1,28 @@
+[2023-02-02 22:46:19 GMT +0000] upstream_check_min_requirements
+[2023-02-02 22:46:19 GMT +0000] upstream_run_install
+[2023-02-02 22:46:19 GMT +0000] wp_get_current_user
+[2023-02-02 22:46:19 GMT +0000] user->add_cap
+[2023-02-02 22:46:19 GMT +0000] upstream_setup_post_types
+[2023-02-02 22:46:19 GMT +0000] upstream_setup_taxonomies
+[2023-02-02 22:46:19 GMT +0000] upstream_add_default_options
+[2023-02-02 22:46:19 GMT +0000] flush_rewrite_rules
+[2023-02-02 22:46:19 GMT +0000] current_version = get_option
+[2023-02-02 22:46:19 GMT +0000] update_option
+[2023-02-02 22:46:19 GMT +0000] roles = new UpStream_Roles
+[2023-02-02 22:46:19 GMT +0000] roles->add_roles
+[2023-02-02 22:46:19 GMT +0000] add_roles entry
+[2023-02-02 22:46:19 GMT +0000] add_roles upstream_manager
+[2023-02-02 22:46:19 GMT +0000] add_roles upstream_user
+[2023-02-02 22:46:19 GMT +0000] add_roles upstream_client_user
+[2023-02-02 22:46:19 GMT +0000] upstream_run_fresh_install
+[2023-02-02 22:46:19 GMT +0000] add_default_caps entry
+[2023-02-02 22:46:19 GMT +0000] wp_roles
+[2023-02-02 22:46:19 GMT +0000] is_object wp_roles
+[2023-02-02 22:46:19 GMT +0000] is_null wp_roles
+[2023-02-02 22:46:19 GMT +0000] foreach rolesName
+[2023-02-02 22:46:19 GMT +0000] handling administrator
+[2023-02-02 22:46:19 GMT +0000] handling upstream_manager
+[2023-02-02 22:46:20 GMT +0000] handling upstream_user
+[2023-02-02 22:46:20 GMT +0000] handling upstream_client_user
+[2023-02-02 22:46:20 GMT +0000] set_transient
+[2023-02-02 22:46:20 GMT +0000] flush_rewrite_rules

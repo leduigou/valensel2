@@ -1,0 +1,1131 @@
+# Translation of Plugins - Folders &#8211; Unlimited Folders to Organize Media Library Folder, Pages, Posts, File Manager - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Folders &#8211; Unlimited Folders to Organize Media Library Folder, Pages, Posts, File Manager - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-07-16 19:58:09+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Folders &#8211; Unlimited Folders to Organize Media Library Folder, Pages, Posts, File Manager - Stable (latest release)\n"
+
+#: includes/folders.class.php:5086 includes/form.class.php:89
+msgid "Expand"
+msgstr "Développer"
+
+#: includes/form.class.php:96
+msgid "Expand is pro feature"
+msgstr "« Développer » est une fonctionnalité pro"
+
+#: includes/form.class.php:96 templates/admin/admin-content.php:196
+#: templates/admin/admin-content.php:202 templates/admin/admin-content.php:208
+#: templates/admin/admin-content.php:214 templates/admin/admin-content.php:220
+msgid "Upgrade Now 🎉"
+msgstr "Mettre à niveau maintenant 🎉"
+
+#: includes/media.replace.php:226 includes/media.replace.php:306
+msgid "File successfully replaced"
+msgstr "Le fichier a bien été remplacé"
+
+#: includes/media.replace.php:227 includes/media.replace.php:307
+msgid "The file has been successfully replaced using the file replacement feature"
+msgstr "Le fichier a été remplacé avec succès à l’aide de la fonction de remplacement de fichier."
+
+#: templates/admin/admin-content.php:196
+msgid "Uploading folder is pro feature"
+msgstr "Téléverser un dossier est une fonctionnalité pro."
+
+#: templates/admin/admin-content.php:202
+msgid "Cut is pro feature"
+msgstr "« Couper » est une fonctionnalité pro"
+
+#: templates/admin/admin-content.php:208
+msgid "Copy is pro feature"
+msgstr "« Couper » est une fonctionnalité pro"
+
+#: templates/admin/admin-content.php:214
+msgid "Paste is pro feature"
+msgstr "« Coller » est une fonctionnalité pro"
+
+#: templates/admin/admin-content.php:220
+msgid "Lock/Unlock is pro feature"
+msgstr "« Verrouiller/Déverrouiller » est une fonctionnalité pro"
+
+#: templates/admin/admin-content.php:410
+msgid "You can still create unlimited folders in the free version."
+msgstr "Vous pouvez toujours créer un nombre illimité de dossiers dans la version gratuite."
+
+#: templates/admin/admin-content.php:414
+msgid "Don't show this popup again"
+msgstr "Ne plus afficher cette fenêtre surgissante"
+
+#: templates/admin/admin-content.php:431
+msgid "Confirm your change"
+msgstr "Confirmez votre modification"
+
+#: templates/admin/admin-content.php:438
+msgid "From all folders"
+msgstr "De tous les dossiers"
+
+#: templates/admin/admin-content.php:439
+msgid "Just from this folder"
+msgstr "Juste à partir de ce dossier"
+
+#: templates/admin/general-settings.php:563
+msgid "User Restrictions"
+msgstr "Restrictions pour les comptes"
+
+#: templates/admin/general-settings.php:714
+msgid "Move files to trash by default before deleting"
+msgstr "Déplacer les fichiers vers la corbeille par défaut avant de les supprimer"
+
+#: templates/admin/general-settings.php:715
+msgid "When enabled, files will be moved to trash to prevent mistakes, and then you can delete permanently from the trash"
+msgstr "Lorsque cette fonction est activée, les fichiers sont déplacés vers la corbeille pour éviter les erreurs, et vous pouvez ensuite les supprimer définitivement de la corbeille."
+
+#: templates/admin/general-settings.php:1416
+msgid "Restrict users to their folders only"
+msgstr "Restreindre les comptes uniquement à leurs dossiers"
+
+#: templates/admin/general-settings.php:1417
+msgid "Users will only be able to access their folders and media. Only Admin users will be able to view all folders"
+msgstr "Les comptes accéderont uniquement à leurs dossiers et médias. Uniquement les comptes administrateurs pourront voir tous les dossiers."
+
+#: templates/admin/general-settings.php:1442
+msgid "Restrict access to dynamic folders"
+msgstr "Restreindre l’accès aux dossiers dynamiques"
+
+#: templates/admin/general-settings.php:1443
+msgid "Regular users will not access dynamic folders."
+msgstr "Les comptes ordinaires n’auront pas accès aux dossiers dynamiques."
+
+#: templates/admin/general-settings.php:1444
+msgid "Only Admin users will be able to view dynamic folders."
+msgstr "Uniquement les comptes Admin pourront voir les dossiers dynamiques."
+
+#: templates/admin/media-replace.php:159
+msgid "Custom date"
+msgstr "Date personnalisée"
+
+#: templates/admin/media-replace.php:164
+msgid "Put new Upload in Updated Folder"
+msgstr "Mettre le nouveau téléversement dans le dossier mis à jour"
+
+#: templates/admin/general-settings.php:690
+msgid "Use folders with Undo action after performing tasks"
+msgstr "Utiliser les dossiers avec l’action « Annuler » après avoir effectué des tâches"
+
+#: templates/admin/general-settings.php:698
+msgid "Default timeout"
+msgstr "Délai par défaut"
+
+#: templates/admin/general-settings.php:854
+msgid "%sPro version ✨%s includes updating all previous links of the file in the database, changing dates &  more"
+msgstr "%sVersion Pro ✨%s comprend la mise à jour de tous les liens précédents du fichier dans la base de données, la modification des dates et plus encore."
+
+#: templates/admin/general-settings.php:664
+#: templates/admin/upgrade-table.php:58 templates/admin/upgrade-table.php:119
+#: templates/admin/upgrade-table.php:188
+msgid "Dynamic Folders"
+msgstr "Dossiers dynamiques"
+
+#: templates/admin/general-settings.php:898
+msgid "Auto Rename file based on title"
+msgstr "Renommer automatiquement un fichier en fonction de son titre"
+
+#: templates/admin/general-settings.php:899
+msgid "Replace the actual file name of media files with the title from the WordPress editor."
+msgstr "Remplacez le nom de fichier actuel des fichiers multimédias par le titre de l’éditeur WordPress."
+
+#: templates/admin/general-settings.php:977
+#: templates/admin/general-settings.php:1017
+#: templates/admin/general-settings.php:1054
+#: templates/admin/general-settings.php:1091
+#: templates/admin/general-settings.php:1128
+msgid "Custom"
+msgstr "Personnaliser"
+
+#: templates/admin/general-settings.php:1671
+msgid "You've reached the 10 folder limitation!"
+msgstr "Vous avez atteint la limite des 10 dossiers !"
+
+#: includes/media.replace.php:201
+msgid "Change file name"
+msgstr "Modifier le nom du fichier"
+
+#: includes/media.replace.php:337
+msgid "Change file name according to title"
+msgstr "Modifier le nom du fichier en fonction du titre"
+
+#: includes/media.replace.php:426
+msgid "Update file name with title"
+msgstr "Mettre à jour le nom du fichier avec le titre"
+
+#: includes/folders.class.php:5089 templates/admin/admin-content.php:260
+#: templates/admin/admin-content.php:452
+msgid "Add a new folder"
+msgstr "Ajouter un nouveau dossier"
+
+#: templates/admin/admin-content.php:263
+msgid "Enter your folder's name (or create more than one folder by separating the name with a comma)"
+msgstr "Saisissez le nom de votre dossier (ou créez plus d’un dossier en séparant le nom par une virgule)"
+
+#: templates/admin/admin-content.php:269 templates/admin/admin-content.php:306
+#: templates/admin/admin-content.php:458
+msgid "Folder name"
+msgstr "Nom du dossier"
+
+#: templates/admin/admin-content.php:277 templates/admin/admin-content.php:463
+msgid "Pro tip"
+msgstr "Astuce de pro"
+
+#: templates/admin/admin-content.php:280 templates/admin/admin-content.php:466
+msgid "%sUpgrade to Pro%s to create subfolders (with 20+ amazing features) & premium support 🎉"
+msgstr "%sPassez à la version Pro%s pour créer des sous-dossiers (avec plus de 20 fonctions étonnantes) et une assistance premium 🎉."
+
+#: templates/admin/admin-content.php:351
+msgid "Unlock unlimited amount of folders by activating license key."
+msgstr "Déverrouillez un nombre illimité de dossiers en activant la clé de licence."
+
+#: templates/admin/admin-content.php:384 templates/admin/admin-content.php:404
+msgid "Sub-folders is a pro feature"
+msgstr "Les sous-dossiers sont une fonctionnalité pro"
+
+#: templates/admin/admin-content.php:387 templates/admin/admin-content.php:407
+msgid "Hey, it looks like you want to create sub-folders on Folders. Sub-folders is a premium feature. Upgrade to Pro to create, access and organize your files with sub-folders."
+msgstr "Il semble que vous souhaitiez créer des sous-dossiers avec Folders. Les sous-dossiers sont une fonctionnalité premium. Passez à la version Pro pour créer, accéder et organiser vos fichiers avec des sous-dossiers."
+
+#: includes/folders.class.php:5072 templates/admin/admin-content.php:481
+#: templates/admin/admin-content.php:485
+msgid "Select Folder"
+msgstr "Sélectionner le dossier"
+
+#: templates/admin/admin-content.php:500
+msgid "Action performed successfully"
+msgstr "Action bien réalisée"
+
+#: templates/admin/admin-content.php:501
+msgid "Your action has been successfully completed. Click the %sUndo%s button to reverse the action"
+msgstr "Votre action s’est bien terminée. Cliquez sur le bouton %sAnnuler%s pour annuler l’action."
+
+#: templates/admin/admin-content.php:502
+msgid "Undo"
+msgstr "Annuler"
+
+#: templates/admin/admin-content.php:509
+msgid "Action reversed successfully"
+msgstr "Action bien annulée"
+
+#: templates/admin/general-settings.php:669
+#: templates/admin/upgrade-table.php:60 templates/admin/upgrade-table.php:121
+#: templates/admin/upgrade-table.php:190
+msgid "Automatically filter posts/pages/custom posts/media files based on author, date, file types & more"
+msgstr "Filtrez automatiquement les publications, les pages, les publications personnalisées et les fichiers multimédias en fonction de l’auteur/autrice, de la date, du type de fichier, etc."
+
+#: templates/admin/general-settings.php:759
+#: templates/admin/upgrade-table.php:71 templates/admin/upgrade-table.php:132
+#: templates/admin/upgrade-table.php:201
+msgid "Show useful metadata including title, size, type, date, dimension & more on hover."
+msgstr "Afficher des métadonnées utiles telles que titre, taille, type, date, dimension et plus encore au survol."
+
+#: templates/admin/media-replace.php:88 templates/admin/media-replace.php:110
+msgid "to compare file size"
+msgstr "comparer la taille du fichier"
+
+#: templates/admin/general-settings.php:163
+msgid "This will delete all existing folders & settings"
+msgstr "Cela supprimera tous les dossiers et paramètres existants"
+
+#: templates/admin/general-settings.php:546
+msgid "Changes Saved"
+msgstr "Modifications sauvegardées"
+
+#: templates/admin/general-settings.php:547
+msgid "Your changes have been saved."
+msgstr "Vos modifications ont été enregistrées."
+
+#: templates/admin/general-settings.php:551
+msgid "Folders Deleted"
+msgstr "Dossiers supprimés"
+
+#: templates/admin/general-settings.php:552
+msgid "All folders has been successfully deleted."
+msgstr "Tous les dossiers ont bien été supprimés."
+
+#: templates/admin/general-settings.php:565
+msgid "Tools"
+msgstr "Outils"
+
+#: templates/admin/general-settings.php:849
+msgid "Enable Replace Media"
+msgstr "Activer le remplacement des médias"
+
+#: templates/admin/general-settings.php:853
+msgid "The Replace Media feature will allow you to replace your media files throughout your website with the click of a button,  which means the file will be replaced for all your posts, pages, etc"
+msgstr "La fonction de remplacement des médias vous permet de remplacer vos fichiers multimédias sur l’ensemble de votre site web en cliquant sur un bouton, ce qui signifie que le fichier sera remplacé pour toutes vos publications, pages, etc."
+
+#: templates/admin/general-settings.php:754
+msgid "Show media details on hover"
+msgstr "Afficher les détails du média au survol"
+
+#: templates/admin/general-settings.php:775
+msgid "Title"
+msgstr "Titre"
+
+#: templates/admin/general-settings.php:779
+msgid "Alternative Text"
+msgstr "Texte alternatif"
+
+#: templates/admin/general-settings.php:783
+msgid "File URL"
+msgstr "URL du fichier"
+
+#: templates/admin/general-settings.php:787
+msgid "Dimensions"
+msgstr "Dimensions"
+
+#: templates/admin/general-settings.php:791
+msgid "Size"
+msgstr "Taille"
+
+#: templates/admin/general-settings.php:795
+msgid "Filename"
+msgstr "Nom du fichier"
+
+#: templates/admin/general-settings.php:799
+msgid "Type"
+msgstr "Type"
+
+#: templates/admin/general-settings.php:803
+msgid "Date"
+msgstr "Date"
+
+#: templates/admin/general-settings.php:807
+msgid "Uploaded by"
+msgstr "Téléversé par"
+
+#: templates/admin/general-settings.php:1254
+#: templates/admin/general-settings.php:1263
+msgid "Show Folders in upper position"
+msgstr "Afficher les dossiers en position supérieure"
+
+#: templates/admin/general-settings.php:1351
+#: templates/admin/general-settings.php:1361
+msgid "Export/Import"
+msgstr "Exporter/Importer"
+
+#: templates/admin/general-settings.php:1352
+msgid "External folders found."
+msgstr "Dossiers externes trouvés."
+
+#: templates/admin/general-settings.php:1352
+msgid "Click import to start importing external folders."
+msgstr "Cliquez sur importer pour commencer à importer des dossiers externes."
+
+#: templates/admin/general-settings.php:1362
+msgid "Couldn't detect any external folders that can be imported. Please contact us if you have external folders that were not detected"
+msgstr "Impossible de détecter des dossiers externes qui peuvent être importés. Veuillez nous contacter si vous avez des dossiers externes qui n’ont pas été détectés."
+
+#: templates/admin/general-settings.php:1365
+msgid "Contact Us"
+msgstr "Contactez-nous"
+
+#: templates/admin/general-settings.php:1369
+msgid "Danger Zone"
+msgstr "Zone dangereuse"
+
+#: templates/admin/general-settings.php:1373
+msgid "Delete plugin data upon deletion"
+msgstr "Suppression des données de l’extension en cas de suppression"
+
+#: templates/admin/general-settings.php:1374
+msgid "Delete all folders when the plugin is removed. This feature will remove all existing folders created by the plugin upon deletion."
+msgstr "Supprimer tous les dossiers lorsque l’extension est supprimée. Cette fonction supprimera tous les dossiers existants créés par l’extension lors de sa suppression."
+
+#: templates/admin/general-settings.php:1374
+msgid "(Not recommended)"
+msgstr "(Non recommandé !)"
+
+#: templates/admin/general-settings.php:1387
+msgid "Manual Data Removal"
+msgstr "Suppression manuelle des données"
+
+#: templates/admin/general-settings.php:1388
+msgid "Delete all folders data manually This feature will remove all existing folders created by the plugin. Use this feature with caution."
+msgstr "Supprimer manuellement les données de tous les dossiers Cette fonctionnalité retirera tous les dossiers existants créés par l’extension. Utilisez cette fonction avec prudence."
+
+#: templates/admin/general-settings.php:1391
+msgid "Delete Now"
+msgstr "Supprimer maintenant"
+
+#: templates/admin/general-settings.php:1558
+msgid "Folders will remove all created folders once you remove the plugin. We recommend you %snot to use this feature%s if you plan to use Folders in future."
+msgstr "Folders retirera tous les dossiers créés une fois que vous aurez retiré l’extension. Nous vous recommandons de %sne pas utiliser cette fonctionnalité%s si vous prévoyez d’utiliser Folders à l’avenir."
+
+#: templates/admin/general-settings.php:1561
+msgid "I want to delete anyway"
+msgstr "Je veux supprimer de toute façon"
+
+#: templates/admin/general-settings.php:1576
+msgid "Type DELETE to confirm"
+msgstr "Tapez DELETE pour confirmer"
+
+#: includes/form.class.php:110
+msgid "A → Z"
+msgstr "A → Z"
+
+#: includes/form.class.php:111
+msgid "Z → A"
+msgstr "Z → A"
+
+#: includes/form.class.php:113 includes/form.class.php:116
+msgid "Sort by newest"
+msgstr "Trier par le plus récent"
+
+#: includes/form.class.php:114 includes/form.class.php:117
+msgid "Sort by oldest"
+msgstr "Trier par le plus ancien"
+
+#: includes/form.class.php:116 includes/form.class.php:117
+msgid "(Pro)"
+msgstr "(Pro)"
+
+#: includes/form.class.php:127
+msgid "Unlock all Pro features"
+msgstr "Déverrouillez toutes les fonctionnalités Pro"
+
+#: includes/media.replace.php:534
+msgid "Replace Media 🔑"
+msgstr "Remplacer le média"
+
+#: includes/media.replace.php:582
+msgid "to replace any kind of files while uploading including pdf/svg/docx/etc & more."
+msgstr "pour remplacer tout type de fichiers lors du téléversement, y compris les fichiers pdf/svg/docx/etc et plus encore."
+
+#: includes/media.replace.php:619
+msgid "to replace media files other than images"
+msgstr "pour remplacer les fichiers multimédias autres que les images"
+
+#: templates/admin/general-settings.php:170
+msgid "Please type DELETE and click on the \"Delete\" button to confirm"
+msgstr "Veuillez taper DELETE et cliquer sur le bouton « Delete » pour confirmer."
+
+#: templates/admin/media-replace.php:101
+msgid "Click here to upload file"
+msgstr "Cliquez ici pour téléverser le fichier"
+
+#: templates/admin/media-replace.php:180
+msgid "Replace File"
+msgstr "Remplacer le fichier"
+
+#: templates/admin/media-replace.php:14
+msgid "You do not have permission to upload files."
+msgstr "Vous n’avez pas le droit de téléverser des fichiers."
+
+#: includes/media.replace.php:180 templates/admin/media-replace.php:63
+msgid "Replace Media"
+msgstr "Remplacer le média"
+
+#: templates/admin/media-replace.php:116
+msgid "Replacement file is not the same filetype. This might cause unexpected issues"
+msgstr "Le fichier de remplacement n’est pas du même type. Cela peut entraîner des problèmes inattendus"
+
+#: templates/admin/media-replace.php:66 templates/admin/media-replace.php:76
+msgid "Current File"
+msgstr "Fichier actuel"
+
+#: templates/admin/media-replace.php:67
+msgid "Upload a new file instead of the current one"
+msgstr "Téléversez un nouveau fichier au lieu de l’actuel"
+
+#: templates/admin/media-replace.php:68
+msgid "Maximum file size: <strong>%s</strong>"
+msgstr "Taille maximale du fichier : <strong>%s</strong>"
+
+#: templates/admin/media-replace.php:92
+msgid "New File"
+msgstr "Nouveau fichier"
+
+#: templates/admin/general-settings.php:35
+msgid "Import folders from %plugin%"
+msgstr "Importer des dossiers depuis %plugin%"
+
+#: templates/admin/general-settings.php:36
+msgid "Are you sure you'd like to import %d folders from %plugin%?"
+msgstr "Êtes-vous sûr de vouloir importer %d dossiers depuis %plugin% ?"
+
+#: templates/admin/general-settings.php:38
+msgid "You're about to delete %plugin%'s folders. Are you sure you'd like to proceed?"
+msgstr "Vous êtes sur le point de supprimer les dossiers de %plugin%. Êtes-vous sûr de vouloir continuer ?"
+
+#: templates/admin/general-settings.php:1355
+#: templates/admin/general-settings.php:1489
+#: templates/admin/general-settings.php:1515
+#: templates/admin/general-settings.php:1640
+msgid "Import"
+msgstr "Importer"
+
+#: templates/admin/general-settings.php:873
+msgid "Place the Folders settings page nested under \"Settings\""
+msgstr "Placez la page des réglages de Folders dans le menu « Réglages »"
+
+#: templates/admin/general-settings.php:886
+msgid "Show the folders also in WordPress menu"
+msgstr "Afficher Folders également dans le menu WordPress"
+
+#: templates/admin/general-settings.php:1514
+#: templates/admin/general-settings.php:1641
+msgid "%s folder%s and %s attachment%s"
+msgstr "%s folder%s et %s attachment%s"
+
+#: templates/admin/general-settings.php:1514
+#: templates/admin/general-settings.php:1641
+msgid "s"
+msgstr "s"
+
+#: templates/admin/general-settings.php:1516
+#: templates/admin/general-settings.php:1544
+msgid "Delete plugin data"
+msgstr "Supprimer les données de l’extension"
+
+#: templates/admin/general-settings.php:1504
+#: templates/admin/general-settings.php:1629
+msgid "Import data"
+msgstr "Importer des données"
+
+#: templates/admin/general-settings.php:1630
+msgid "We've detected that you use another folders plugin. Would you like the Folders plugin to import your current folders? Keep in mind you can always do it in Folders Settings -> Import"
+msgstr "Nous avons détecté que vous utilisez une autre extension de dossier. Souhaitez-vous que l’extension Folders importe vos dossiers actuels ? Gardez à l’esprit que vous pouvez toujours le faire dans Réglages de Folders -> Import"
+
+#: includes/plugins.class.php:80 includes/plugins.class.php:168
+msgid "Invalid request"
+msgstr "Requête non valide"
+
+#: includes/plugins.class.php:395
+msgid "%s folders imported and %s attachments categorized."
+msgstr "%s dossiers importés et %s fichiers joints catégorisées."
+
+#: includes/media.replace.php:424 includes/media.replace.php:462
+#: includes/media.replace.php:463 includes/media.replace.php:528
+#: includes/media.replace.php:610 includes/media.replace.php:617
+msgid "Replace media"
+msgstr "Remplacer le média"
+
+#: includes/media.replace.php:580 includes/media.replace.php:612
+msgid "Upload a new file"
+msgstr "Téléverser un nouveau fichier"
+
+#: includes/media.replace.php:580 includes/media.replace.php:613
+#: includes/media.replace.php:620
+msgid "Click on the button to replace the file with another file"
+msgstr "Cliquez sur le bouton pour remplacer le fichier par un autre fichier"
+
+#: templates/admin/recommended-plugins.php:163
+msgid "Try out our recommended plugins"
+msgstr "Essayez nos extensions recommandées"
+
+#: templates/admin/recommended-plugins.php:164
+msgid "Hide From Menu"
+msgstr "Masquer du menu"
+
+#. translators: %s: Plugin author.
+#: templates/admin/recommended-plugins.php:210
+msgid "By %s"
+msgstr "Par %s"
+
+#. translators: %s: Plugin name and version.
+#: templates/admin/recommended-plugins.php:234
+msgctxt "plugin"
+msgid "Install %s now"
+msgstr "Installer %s maintenant"
+
+#: templates/admin/recommended-plugins.php:236
+msgid "Install Now"
+msgstr "Installer maintenant"
+
+#: templates/admin/recommended-plugins.php:241
+msgctxt "plugin"
+msgid "Cannot Install"
+msgstr "Impossible d’installer"
+
+#. translators: %s: Plugin name and version.
+#: templates/admin/recommended-plugins.php:256
+msgctxt "plugin"
+msgid "Update %s now"
+msgstr "Mettre à jour %s maintenant"
+
+#: templates/admin/recommended-plugins.php:258
+msgid "Update Now"
+msgstr "Mettre à jour maintenant"
+
+#: templates/admin/recommended-plugins.php:263
+msgctxt "plugin"
+msgid "Cannot Update"
+msgstr "Mise à jour impossible"
+
+#: templates/admin/recommended-plugins.php:274
+msgctxt "plugin"
+msgid "Active"
+msgstr "Actif"
+
+#: templates/admin/recommended-plugins.php:277
+msgid "Activate"
+msgstr "Activer"
+
+#. translators: %s: Plugin name.
+#: templates/admin/recommended-plugins.php:279
+msgctxt "plugin"
+msgid "Activate %s"
+msgstr "Activer %s"
+
+#: templates/admin/recommended-plugins.php:290
+msgid "Network Activate"
+msgstr "Activer sur le réseau"
+
+#. translators: %s: Plugin name.
+#: templates/admin/recommended-plugins.php:292
+msgctxt "plugin"
+msgid "Network Activate %s"
+msgstr "Activation réseau de %s"
+
+#: templates/admin/recommended-plugins.php:305
+msgctxt "plugin"
+msgid "Installed"
+msgstr "Installé"
+
+#. translators: %s: Plugin name and version.
+#: templates/admin/recommended-plugins.php:320
+msgid "More information about %s"
+msgstr "Plus d’informations sur %s"
+
+#: templates/admin/recommended-plugins.php:322
+msgid "More Details"
+msgstr "Plus de détails"
+
+#: templates/admin/recommended-plugins.php:352
+msgid "This plugin doesn&#8217;t work with your versions of WordPress and PHP."
+msgstr "Cette extension ne fonctionne pas avec vos versions de WordPress et de PHP."
+
+#. translators: 1: URL to WordPress Updates screen, 2: URL to Update PHP page.
+#: templates/admin/recommended-plugins.php:356
+msgid "<a href=\"%1$s\">Please update WordPress</a>, and then <a href=\"%2$s\">learn more about updating PHP</a>."
+msgstr "<a href=\"%1$s\">Veuillez mettre à jour WordPress</a>, puis <a href=\"%2$s\">apprenez-en plus sur la mise à jour de PHP</a>."
+
+#. translators: %s: URL to WordPress Updates screen.
+#: templates/admin/recommended-plugins.php:364
+#: templates/admin/recommended-plugins.php:380
+msgid "<a href=\"%s\">Please update WordPress</a>."
+msgstr "<a href=\"%s\">Veuillez mettre à jour WordPress</a>."
+
+#. translators: %s: URL to Update PHP page.
+#: templates/admin/recommended-plugins.php:370
+#: templates/admin/recommended-plugins.php:389
+msgid "<a href=\"%s\">Learn more about updating PHP</a>."
+msgstr "<a href=\"%s\">En savoir plus sur la mise à jour de PHP</a>."
+
+#: templates/admin/recommended-plugins.php:376
+msgid "This plugin doesn&#8217;t work with your version of WordPress."
+msgstr "Cette extension ne fonctionne pas avec votre version de WordPress."
+
+#: templates/admin/recommended-plugins.php:385
+msgid "This plugin doesn&#8217;t work with your version of PHP."
+msgstr "Cette extension ne fonctionne pas avec votre version de PHP."
+
+#: templates/admin/recommended-plugins.php:434
+msgid "Last Updated:"
+msgstr "Dernière mise à jour :"
+
+#. translators: %s: Human-readable time difference.
+#: templates/admin/recommended-plugins.php:437
+msgid "%s ago"
+msgstr "Il y a %s"
+
+#. translators: %s: Number of millions.
+#: templates/admin/recommended-plugins.php:446
+msgctxt "Active plugin installations"
+msgid "%s+ Million"
+msgid_plural "%s+ Million"
+msgstr[0] "%s million et +"
+msgstr[1] "%s millions et +"
+
+#: templates/admin/recommended-plugins.php:450
+msgctxt "Active plugin installations"
+msgid "Less Than 10"
+msgstr "Moins de 10"
+
+#. translators: %s: Number of installations.
+#: templates/admin/recommended-plugins.php:456
+msgid "%s Active Installations"
+msgstr "%s installations actives"
+
+#: templates/admin/recommended-plugins.php:462
+msgid "Untested with your version of WordPress"
+msgstr "Non testé avec votre version de WordPress"
+
+#: templates/admin/recommended-plugins.php:464
+msgid "<strong>Incompatible</strong> with your version of WordPress"
+msgstr "<strong>Incompatible</strong> avec votre version de WordPress"
+
+#: templates/admin/recommended-plugins.php:466
+msgid "<strong>Compatible</strong> with your version of WordPress"
+msgstr "<strong>Compatible</strong> avec votre version de WordPress"
+
+#: templates/admin/general-settings.php:37
+#: templates/admin/general-settings.php:1541
+#: templates/admin/general-settings.php:1557
+#: templates/admin/recommended-plugins.php:477
+msgid "Are you sure?"
+msgstr "Êtes-vous sûr ?"
+
+#: templates/admin/recommended-plugins.php:478
+msgid "If you hide the recommended plugins page from your menu, it won't appear there again. Are you sure you'd like to do it?"
+msgstr "Si vous masquez la page des extensions recommandées dans votre menu, elle n’y apparaîtra plus. Êtes-vous sûr de vouloir le faire ?"
+
+#: includes/folders.class.php:5508 includes/folders.class.php:5509
+msgid "Recommended Plugins"
+msgstr "Extensions recommandées"
+
+#: includes/folders.class.php:1126
+msgid "Unassigned"
+msgstr "Non attribué"
+
+#: includes/folders.class.php:828 includes/folders.class.php:5078
+#: templates/admin/admin-content.php:490
+msgid "Move to Folder"
+msgstr "Déplacer vers un dossier"
+
+#: templates/admin/help.php:77
+msgid "Your message is sent successfully."
+msgstr "Votre message a bien été envoyé."
+
+#: templates/admin/help.php:30 templates/admin/help.php:67
+msgid "Chat"
+msgstr "Chat"
+
+#: templates/admin/admin-content.php:371
+#: templates/admin/general-settings.php:1527
+#: templates/admin/general-settings.php:1652
+msgid "Close"
+msgstr "Fermer"
+
+#: templates/admin/admin-content.php:334
+msgid "No, Keep it"
+msgstr "Non, conservez-le"
+
+#: includes/folders.class.php:5080 templates/admin/admin-content.php:331
+msgid "Items in the folder will not be deleted."
+msgstr "Les éléments contenus dans le dossier ne seront pas supprimés."
+
+#: templates/admin/admin-content.php:300
+msgid "Rename folder"
+msgstr "Renommer le dossier"
+
+#: includes/folders.class.php:5085 templates/admin/admin-content.php:285
+#: templates/admin/admin-content.php:314
+msgid "Submit"
+msgstr "Envoyer"
+
+#: templates/admin/admin-content.php:284 templates/admin/admin-content.php:313
+#: templates/admin/admin-content.php:354 templates/admin/admin-content.php:390
+#: templates/admin/admin-content.php:417 templates/admin/admin-content.php:489
+#: templates/admin/folder-deactivate-form.php:45
+#: templates/admin/general-settings.php:1490
+#: templates/admin/general-settings.php:1545
+#: templates/admin/general-settings.php:1560
+#: templates/admin/general-settings.php:1586
+#: templates/admin/general-settings.php:1677
+#: templates/admin/media-replace.php:181
+msgid "Cancel"
+msgstr "Annuler"
+
+#: templates/admin/folder-deactivate-form.php:33
+msgid "Click here"
+msgstr "Cliquez ici"
+
+#: templates/admin/folder-deactivate-form.php:31
+msgid "Your comment"
+msgstr "Votre commentaire"
+
+#: templates/admin/general-settings.php:1319
+#: templates/admin/general-settings.php:1327
+msgid "Folder 3"
+msgstr "Dossier 3"
+
+#: templates/admin/general-settings.php:1318
+#: templates/admin/general-settings.php:1326
+msgid "Folder 2"
+msgstr "Dossier 2"
+
+#: templates/admin/general-settings.php:1317
+#: templates/admin/general-settings.php:1325
+msgid "Folder 1"
+msgstr "Dossier 1"
+
+#: templates/admin/general-settings.php:1313
+msgid "Unassigned Files"
+msgstr "Fichiers non assignés"
+
+#: templates/admin/general-settings.php:1185
+#: templates/admin/general-settings.php:1188
+msgid "Folders size"
+msgstr "Taille des dossiers"
+
+#: templates/admin/general-settings.php:1105
+msgid "Folders background color"
+msgstr "Couleur de fond des dossiers"
+
+#: templates/admin/general-settings.php:1068
+msgid "Dropdown color"
+msgstr "Couleur du menu déroulant"
+
+#: templates/admin/general-settings.php:564
+msgid "Customize Folders"
+msgstr "Personnaliser Folders"
+
+#: includes/folders.class.php:5522 includes/folders.class.php:5523
+#: includes/media.replace.php:340 includes/media.replace.php:426
+#: includes/media.replace.php:582 includes/media.replace.php:619
+#: templates/admin/admin-content.php:355 templates/admin/admin-content.php:391
+#: templates/admin/admin-content.php:418
+#: templates/admin/general-settings.php:567
+#: templates/admin/general-settings.php:633
+#: templates/admin/general-settings.php:665
+#: templates/admin/general-settings.php:716
+#: templates/admin/general-settings.php:736
+#: templates/admin/general-settings.php:755
+#: templates/admin/general-settings.php:830
+#: templates/admin/general-settings.php:900
+#: templates/admin/general-settings.php:954
+#: templates/admin/general-settings.php:978
+#: templates/admin/general-settings.php:994
+#: templates/admin/general-settings.php:1018
+#: templates/admin/general-settings.php:1031
+#: templates/admin/general-settings.php:1055
+#: templates/admin/general-settings.php:1068
+#: templates/admin/general-settings.php:1092
+#: templates/admin/general-settings.php:1105
+#: templates/admin/general-settings.php:1129
+#: templates/admin/general-settings.php:1147
+#: templates/admin/general-settings.php:1185
+#: templates/admin/general-settings.php:1255
+#: templates/admin/general-settings.php:1427
+#: templates/admin/general-settings.php:1434
+#: templates/admin/general-settings.php:1454
+#: templates/admin/general-settings.php:1461
+#: templates/admin/media-replace.php:88 templates/admin/media-replace.php:104
+#: templates/admin/media-replace.php:110 templates/admin/media-replace.php:174
+msgid "Upgrade to Pro"
+msgstr "Passer à la version Pro"
+
+#: includes/folders.class.php:4391
+msgid "Add New Folder"
+msgstr "Ajouter un nouveau dossier"
+
+#: includes/folders.class.php:4390
+msgid "Update Folder"
+msgstr "Mettre à jour le dossier"
+
+#: includes/folders.class.php:4389
+msgid "Edit Folder"
+msgstr "Modifier le dossier"
+
+#: includes/folders.class.php:4387 includes/folders.class.php:4399
+msgid "Folder"
+msgstr "Dossier"
+
+#: includes/folders.class.php:3480
+msgid "Unable to rename folder"
+msgstr "Impossible de renommer le dossier"
+
+#: includes/folders.class.php:5064 templates/admin/admin-content.php:225
+#: templates/admin/general-settings.php:1297
+#: templates/admin/general-settings.php:1585
+msgid "Delete"
+msgstr "Supprimer"
+
+#: includes/folders.class.php:5050 templates/admin/general-settings.php:1294
+msgid "Rename"
+msgstr "Renommer"
+
+#: includes/form.class.php:71 templates/admin/general-settings.php:1281
+msgid "New Folder"
+msgstr "Nouveau dossier"
+
+#. Author URI of the plugin
+msgid "https://premio.io/downloads/folders/"
+msgstr "https://premio.io/downloads/folders/"
+
+#. Author of the plugin
+msgid "Premio"
+msgstr "Premio"
+
+#: includes/folders.class.php:2304
+msgid "%s is required"
+msgstr "%s est obligatoire"
+
+#: includes/folders.class.php:1118
+msgid "Select a folder (Optional)"
+msgstr "Sélectionnez un dossier (facultatif)"
+
+#: includes/folders.class.php:297 includes/folders.class.php:302
+#: includes/folders.class.php:421 includes/folders.class.php:426
+#: includes/folders.class.php:464 includes/folders.class.php:470
+#: includes/folders.class.php:578 includes/folders.class.php:581
+#: includes/folders.class.php:584 includes/folders.class.php:596
+#: includes/folders.class.php:658 includes/folders.class.php:661
+#: includes/folders.class.php:664 includes/folders.class.php:1157
+#: includes/folders.class.php:1160 includes/folders.class.php:1163
+#: includes/folders.class.php:1175 includes/folders.class.php:1211
+#: includes/folders.class.php:1214 includes/folders.class.php:1217
+#: includes/folders.class.php:1229 includes/folders.class.php:1265
+#: includes/folders.class.php:1268 includes/folders.class.php:1271
+#: includes/folders.class.php:1274 includes/folders.class.php:1277
+#: includes/folders.class.php:1330 includes/folders.class.php:1333
+#: includes/folders.class.php:1336 includes/folders.class.php:1339
+#: includes/folders.class.php:1342 includes/folders.class.php:2332
+#: includes/folders.class.php:2339 includes/folders.class.php:2425
+#: includes/folders.class.php:2431 includes/folders.class.php:2578
+#: includes/folders.class.php:2581 includes/folders.class.php:2593
+#: includes/folders.class.php:2636 includes/folders.class.php:2639
+#: includes/folders.class.php:2642 includes/folders.class.php:2654
+#: includes/folders.class.php:2690 includes/folders.class.php:2693
+#: includes/folders.class.php:2696 includes/folders.class.php:2699
+#: includes/folders.class.php:2710 includes/folders.class.php:2784
+#: includes/folders.class.php:2787 includes/folders.class.php:2791
+#: includes/folders.class.php:2860 includes/folders.class.php:2863
+#: includes/folders.class.php:2866 includes/folders.class.php:2868
+#: includes/folders.class.php:2879 includes/folders.class.php:2940
+#: includes/folders.class.php:2942 includes/folders.class.php:2947
+#: includes/folders.class.php:2995 includes/folders.class.php:2997
+#: includes/folders.class.php:3002 includes/folders.class.php:3050
+#: includes/folders.class.php:3053 includes/folders.class.php:3055
+#: includes/folders.class.php:3060 includes/folders.class.php:3124
+#: includes/folders.class.php:3132 includes/folders.class.php:3175
+#: includes/folders.class.php:3178 includes/folders.class.php:3181
+#: includes/folders.class.php:3184 includes/folders.class.php:3189
+#: includes/folders.class.php:3231 includes/folders.class.php:3234
+#: includes/folders.class.php:3237 includes/folders.class.php:3242
+#: includes/folders.class.php:3287 includes/folders.class.php:3290
+#: includes/folders.class.php:3293 includes/folders.class.php:3298
+#: includes/folders.class.php:3355 includes/folders.class.php:3358
+#: includes/folders.class.php:3449 includes/folders.class.php:3982
+msgid "Your request is not valid"
+msgstr "Votre demande n’est pas valide"
+
+#: includes/folders.class.php:587 includes/folders.class.php:590
+#: includes/folders.class.php:667 includes/folders.class.php:670
+#: includes/folders.class.php:1166 includes/folders.class.php:1169
+#: includes/folders.class.php:1220 includes/folders.class.php:1223
+#: includes/folders.class.php:2584 includes/folders.class.php:2587
+#: includes/folders.class.php:2645 includes/folders.class.php:2648
+msgid "You have not permission to update width"
+msgstr "Vous n’avez pas la permission de mettre à jour avec"
+
+#: includes/folders.class.php:2233 includes/folders.class.php:4388
+#: includes/folders.class.php:5047
+msgid "All Folders"
+msgstr "Tous les dossiers"
+
+#: includes/folders.class.php:2234 includes/folders.class.php:5073
+msgid "(Unassigned)"
+msgstr "(Non affecté)"
+
+#: includes/folders.class.php:2309
+msgid "Please enter your message"
+msgstr "Veuillez saisir votre message"
+
+#: includes/folders.class.php:2317 templates/admin/help.php:24
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/folders.class.php:2702 includes/folders.class.php:2705
+#: includes/folders.class.php:2871 includes/folders.class.php:2874
+#: includes/folders.class.php:2936 includes/folders.class.php:2991
+#: includes/folders.class.php:3121 includes/folders.class.php:3172
+#: includes/folders.class.php:3440
+msgid "You have not permission to update folder"
+msgstr "Vous n’avez pas la permission de mettre à jour le dossier"
+
+#: includes/folders.class.php:3127 includes/folders.class.php:3986
+#: includes/folders.class.php:3992
+msgid "Unable to create folder, Your request is not valid"
+msgstr "Impossible de créer un dossier, votre demande n’est pas valide."
+
+#: includes/folders.class.php:3284 includes/folders.class.php:3352
+msgid "You have not permission to remove folder"
+msgstr "Vous n’avez pas la permission de retirer le dossier"
+
+#: includes/folders.class.php:3361 includes/folders.class.php:3366
+msgid "Unable to delete folder, Your request is not valid"
+msgstr "Impossible de supprimer le dossier, votre demande n’est pas valide."
+
+#: includes/folders.class.php:3976
+msgid "You have not permission to add folder"
+msgstr "Vous n’avez pas la permission d’ajouter le dossier"
+
+#: includes/folders.class.php:4139
+msgid "Folder name already exists"
+msgstr "Le nom du dossier existe déjà"
+
+#: includes/folders.class.php:4392
+msgid "Add folder name"
+msgstr "Ajouter le nom du dossier"
+
+#: includes/folders.class.php:4395 includes/tree.class.php:159
+msgid "Parent Folder"
+msgstr "Dossier parent"
+
+#: includes/folders.class.php:5122
+msgid "Settings"
+msgstr "Réglages"
+
+#: includes/folders.class.php:5126
+msgid "Upgrade"
+msgstr "Mettre à niveau"
+
+#: includes/folders.class.php:5379
+msgid "Move selected items"
+msgstr "Déplacer des éléments sélectionnés"
+
+#: templates/admin/folder-deactivate-form.php:22
+msgid "Quick feedback about Folders"
+msgstr "Retour d’expérience rapide sur Folders"
+
+#: templates/admin/folder-deactivate-form.php:25
+msgid "Your feedback will help us improve the product, please tell us why did you decide to deactivate Folders :)"
+msgstr "Vos commentaires nous aideront à améliorer le produit, merci de nous dire pourquoi avez-vous décidé de désactiver Folders :)"
+
+#: templates/admin/folder-deactivate-form.php:33
+msgid " to contact our support now"
+msgstr " pour contacter notre support maintenant"
+
+#: templates/admin/folder-deactivate-form.php:36
+msgid "Anonymous feedback"
+msgstr "Retours d’expérience anonyme"
+
+#: templates/admin/general-settings.php:600
+msgid "Default folder: "
+msgstr "Dossier par défaut : "
+
+#: templates/admin/help.php:22
+msgid "Hello! Are you experiencing any problems with Folders? Please let me know :)"
+msgstr "Bonjour ! Avez-vous des problèmes avec Folders ? Merci de me le faire savoir :)"
+
+#: templates/admin/help.php:54
+msgid "Sending Request..."
+msgstr "Envoi de la demande en cours..."
+
+#: templates/admin/help.php:73
+msgid "Done!"
+msgstr "Terminé !"
+
+#: includes/folders.class.php:1119
+msgid "First select the folder, and then upload the files"
+msgstr "Sélectionnez d’abord le dossier, puis téléversez les fichiers."
+
+#: templates/admin/upgrade-table.php:237
+msgid "30 days money back guaranteed"
+msgstr "Garantie de remboursement pendant 30 jours"
+
+#: includes/folders.class.php:3443 includes/folders.class.php:3452
+#: includes/folders.class.php:3457
+msgid "Unable to rename folder, Your request is not valid"
+msgstr "Impossible de renommer le dossier. Votre requête est invalide"
+
+#: includes/folders.class.php:5123 templates/admin/help.php:43
+msgid "Need help?"
+msgstr "Besoin d'aide ?"
+
+#: includes/folders.class.php:4394
+msgid "Search Folders"
+msgstr "Rechercher de dossiers"
+
+#: templates/admin/folder-deactivate-form.php:27
+msgid "Email address"
+msgstr "Adresse e-mail"
+
+#: templates/admin/folder-deactivate-form.php:33
+msgid "Having any problem with the Folders plugins?"
+msgstr "Vous avez un problème avec l’extension Folders ?"
+
+#: templates/admin/help.php:27
+msgid "How can I help you?"
+msgstr "Comment puis-je vous aider ?"
+
+#: includes/folders.class.php:5470 includes/folders.class.php:5471
+#: includes/folders.class.php:5484 templates/admin/general-settings.php:531
+#: templates/admin/general-settings.php:562
+msgid "Folders Settings"
+msgstr "Réglages de Folders"
+
+#: templates/admin/general-settings.php:597
+#: templates/admin/general-settings.php:632
+msgid "Use Folders with: "
+msgstr "Utiliser Folders avec : "
+
+#: includes/folders.class.php:3446 includes/folders.class.php:3979
+msgid "Folder name can no be empty"
+msgstr "Le nom du dossier ne peut pas être vide"
+
+#: includes/folders.class.php:3046
+msgid "You have not permission to update folder order"
+msgstr "Vous n’avez pas la permission de mettre à jour l’ordre des dossiers"
+
+#: includes/folders.class.php:1129
+msgid "+ Create a New Folder"
+msgstr "+ Créer un nouveau dossier"
+
+#: templates/admin/upgrade-table.php:240
+msgid "The plugin will always keep working even if you don't renew your license"
+msgstr "L’extension continuera à fonctionner même si vous ne renouvelez pas votre licence"
+
+#. Plugin Name of the plugin
+#: includes/folders.class.php:4386 includes/folders.class.php:4393
+#: includes/folders.class.php:5483 includes/form.class.php:57
+#: templates/admin/general-settings.php:1278
+msgid "Folders"
+msgstr "Folders"
+
+#: templates/admin/general-settings.php:1310
+#: templates/admin/general-settings.php:1324
+msgid "All Files"
+msgstr "Tous les fichiers"
+
+#: templates/admin/general-settings.php:1272
+msgid "See the full functionality on your media library, posts, pages, and custom posts"
+msgstr "Découvrez toutes les fonctionnalités de votre médiathèque, de vos publications, de vos pages et de vos publications personnalisées."
+
+#: templates/admin/general-settings.php:1144
+#: templates/admin/general-settings.php:1147
+msgid "Folders font"
+msgstr "Police des dossiers"
+
+#: templates/admin/help.php:80
+msgid "There is some problem in sending request. Please send us mail on %s"
+msgstr "Il y a eu un problème dans l’envoi de la demande. Veuillez envoyer un e-mail à %s"
+
+#: templates/admin/general-settings.php:1678
+msgid "See Pro Plans"
+msgstr "Voir les offres Pro"
+
+#: templates/admin/general-settings.php:1674
+msgid "Unlock unlimited amount of folders by upgrading to one of our pro plans."
+msgstr "Débloquez un nombre de dossiers illimités en souscrivant à une de nos offres pro."
+
+#: templates/admin/admin-content.php:273 templates/admin/admin-content.php:310
+msgid "Please enter folder name"
+msgstr "Veuillez saisir le nom du dossier"
+
+#: includes/folders.class.php:5065 templates/admin/general-settings.php:1329
+msgid "Bulk Organize"
+msgstr "Organiser en masse :"
+
+#: includes/folders.class.php:5084 templates/admin/admin-content.php:335
+msgid "Yes, Delete it!"
+msgstr "Oui, supprimez-le !"
+
+#: includes/folders.class.php:5079 templates/admin/admin-content.php:328
+msgid "Are you sure you want to delete the selected folder?"
+msgstr "Êtes-vous sûr de vouloir supprimer le dossier sélectionné ?"

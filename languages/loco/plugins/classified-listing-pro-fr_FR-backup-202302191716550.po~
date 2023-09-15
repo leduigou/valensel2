@@ -1,0 +1,3943 @@
+# Copyright (C) 2023 Classified Listing Pro
+# This file is distributed under the same license as the Classified Listing Pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Classified Listing Pro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-02-10 06:30+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:"
+"1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2023-02-19 17:04+0000\n"
+"Last-Translator: René-Jean BLEIN\n"
+"Language-Team: Français\n"
+"Language: fr_FR\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1"
+
+#: ../app/RtclPro.php:58, ../app/RtclPro.php:65
+msgid "Cheatin&#8217; huh?"
+msgstr "Tricheur&#8217; hein?"
+
+#: ../app/Api/RestController.php:73, ../app/Api/V1/V1_ListingApi.php:52,
+#: ../app/Api/V1/V1_MyApi.php:80, ../app/Api/V1/V1_MyApi.php:130,
+#: ../app/Api/V1/V1_OrderApi.php:141, ../app/Api/V1/V1_OrderApi.php:191
+msgid "Current page of the collection."
+msgstr "Page actuelle de la collection."
+
+#: ../app/Api/RestController.php:81, ../app/Api/V1/V1_ListingApi.php:43,
+#: ../app/Api/V1/V1_MyApi.php:71, ../app/Api/V1/V1_MyApi.php:121,
+#: ../app/Api/V1/V1_OrderApi.php:132, ../app/Api/V1/V1_OrderApi.php:182
+msgid "Maximum number of items to be returned in result set."
+msgstr "Nombre maximal d'éléments à renvoyer dans le jeu de résultats."
+
+#: ../app/Api/RestController.php:90
+msgid "Limit results to those matching a string."
+msgstr "Limitez les résultats à ceux correspondant à une chaîne."
+
+#: ../app/Api/RestController.php:96
+msgid "Offset the result set by a specific number of items."
+msgstr "Décaler le jeu de résultats d'un nombre spécifique d'éléments."
+
+#: ../app/Api/RestController.php:100
+msgid "Order sort attribute ascending or descending."
+msgstr "Ordonner l'attribut de tri par ordre croissant ou décroissant."
+
+#: ../app/Api/RestController.php:109
+msgid "Sort collection by object attribute."
+msgstr "Trier la collection par attribut d'objet."
+
+#: ../app/Controllers/AuthController.php:34
+msgid "Session Error!!"
+msgstr "Erreur de session"
+
+#: ../app/Controllers/AuthController.php:48
+msgid "Invalid request."
+msgstr "Requête invalide"
+
+#: ../app/Controllers/AuthController.php:72
+msgid "Your email address is already verified."
+msgstr ""
+
+#: ../app/Controllers/AuthController.php:67
+msgid ""
+"You have tried re-sending verification link too many times, please contact "
+"site administrators."
+msgstr ""
+
+#: ../app/Controllers/AuthController.php:64
+msgid "Verification link sent to your email address"
+msgstr ""
+
+#: ../app/Controllers/AuthController.php:56
+msgid "Verification link sent to user's email address"
+msgstr ""
+
+#: ../app/Controllers/AuthController.php:96
+msgid ""
+"You have not verified your email address, please check your email and click "
+"on verification link we sent you. <a href=\"javascript:;\" id=\"rtcl-resend-"
+"verify-link\" data-login=\"%s\">Re-send the link</a>"
+msgstr ""
+
+#: ../app/Controllers/ChatController.php:78
+msgid "Chat table has been regenerated"
+msgstr "La table de discussion a été régénérée"
+
+#: ../app/Controllers/CommentController.php:129,
+#: ../app/Controllers/CommentController.php:120,
+#: ../app/Controllers/CommentController.php:81
+msgid "Please add the required field."
+msgstr "Veuillez ajouter le champ requis."
+
+#: ../app/Controllers/CommentController.php:124,
+#: ../app/Controllers/CommentController.php:85,
+#: ../app/Controllers/CommentController.php:273,
+#: ../app/Controllers/CommentController.php:275,
+#: ../app/Api/V1/V1_ReviewApi.php:642
+msgid "You have already a review."
+msgstr ""
+
+#: ../app/Controllers/CommentController.php:117,
+#: ../app/Controllers/CommentController.php:78
+msgid "Your rating has been updated."
+msgstr ""
+
+#: ../app/Controllers/CommentController.php:52,
+#: ../app/Controllers/CommentController.php:248,
+#: ../app/Controllers/CommentController.php:250
+msgid "Ad author can't post rating."
+msgstr "L'auteur de l'annonce ne peut pas publier d'évaluation."
+
+#: ../app/Controllers/CommentController.php:179
+msgid "Unknown error"
+msgstr ""
+
+#: ../app/Controllers/CommentController.php:267,
+#: ../app/Controllers/CommentController.php:269
+msgid "Only ajax can update the comment."
+msgstr "Seul ajax peut mettre à jour le commentaire."
+
+#: ../app/Controllers/CommentController.php:295,
+#: ../app/Controllers/CommentController.php:297
+msgid "Please rate the listing."
+msgstr "Veuillez évaluer la liste."
+
+#: ../app/Controllers/CommentController.php:315,
+#: ../app/Controllers/CommentController.php:317
+msgid "Please add the review title."
+msgstr "Veuillez ajouter le titre de l'avis."
+
+#: ../app/Controllers/CompareController.php:60
+msgid "Compare page"
+msgstr "Page de comparaison"
+
+#: ../app/Controllers/CompareController.php:63
+msgid "Select a page"
+msgstr "Sélectionnez une page"
+
+#: ../app/Controllers/CompareController.php:65
+msgid "This is the page where all the compared listings are displayed."
+msgstr ""
+
+#: ../app/Controllers/CompareController.php:87,
+#: ../app/Controllers/CompareController.php:134,
+#: ../app/Controllers/CompareController.php:144,
+#: ../templates/compare/content.php:17, ../templates/compare/popup.php:46
+msgid "No Items Selected"
+msgstr "Aucun élément sélectionné"
+
+#: ../app/Controllers/CompareController.php:151,
+#: ../app/Controllers/QuickViewController.php:61
+msgid "Server Error!!"
+msgstr "Erreur du serveur !!"
+
+#: ../app/Controllers/ScriptController.php:62, ../app/Helpers/Options.php:68,
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:36,
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:68,
+#: ../app/Controllers/Hooks/FilterHooks.php:320,
+#: ../app/Controllers/Hooks/TemplateHooks.php:406
+msgid "Chat"
+msgstr "Chat"
+
+#: ../app/Controllers/ScriptController.php:63
+msgid "Loading ..."
+msgstr "Chargement ..."
+
+#: ../app/Controllers/ScriptController.php:64
+msgid "Are you sure to delete."
+msgstr "Etes-vous sûr de vouloir supprimer."
+
+#: ../app/Controllers/ScriptController.php:65
+msgid "My Chats"
+msgstr "Mes Chats"
+
+#: ../app/Controllers/ScriptController.php:66
+msgid "Chat With"
+msgstr "Chat avec"
+
+#: ../app/Controllers/ScriptController.php:67
+msgid "Delete chat"
+msgstr "Supprimer le chat"
+
+#: ../app/Controllers/ScriptController.php:68
+msgid "Please select a conversation"
+msgstr "Veuillez sélectionner une conversation"
+
+#: ../app/Controllers/ScriptController.php:69
+msgid "You have no conversation yet."
+msgstr ""
+
+#: ../app/Controllers/ScriptController.php:70
+msgid "Type a message here"
+msgstr ""
+
+#: ../app/Controllers/ScriptController.php:71
+msgid "No permission to start chat."
+msgstr "Aucune autorisation pour démarrer le chat."
+
+#: ../app/Controllers/ScriptController.php:72
+msgid "Server Error"
+msgstr "Erreur du serveur"
+
+#: ../app/Controllers/SubscriptionController.php:34,
+#: ../app/Controllers/SubscriptionController.php:60
+msgid "Subscription id is mission"
+msgstr ""
+
+#: ../app/Controllers/SubscriptionController.php:39,
+#: ../app/Controllers/SubscriptionController.php:64
+msgid "No subscription found to cancel"
+msgstr "Aucun abonnement trouvé à annuler"
+
+#: ../app/Controllers/SubscriptionController.php:52
+msgid "Subscription cancel successfully."
+msgstr ""
+
+#: ../app/Controllers/SubscriptionController.php:89,
+#: ../app/Controllers/SubscriptionController.php:119
+msgid "Please select card field"
+msgstr "Veuillez sélectionner le champ de la carte"
+
+#: ../app/Controllers/SubscriptionController.php:98,
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:244
+msgid "Merchant do not support accepting in %s"
+msgstr "Le marchand ne prend pas en charge l'acceptation dans %s"
+
+#: ../app/Controllers/SubscriptionController.php:135,
+#: ../app/Controllers/SubscriptionController.php:85
+msgid "Subscription payment card information updated."
+msgstr ""
+
+#: ../app/Controllers/SubscriptionController.php:72
+msgid "No payment method id found."
+msgstr "Aucun identifiant de mode de paiement trouvé."
+
+#: ../app/Controllers/SubscriptionController.php:138
+msgid "Payment gateway not found."
+msgstr "Passerelle de paiement introuvable."
+
+#: ../app/Controllers/TermMetas.php:27, ../app/Controllers/TermMetas.php:51
+msgid "Map Icon"
+msgstr "Icône de carte"
+
+#: ../app/Controllers/TermMetas.php:32, ../app/Controllers/TermMetas.php:64
+msgid "Add Map Icon"
+msgstr "Ajouter une icône de la carte"
+
+#: ../app/Controllers/TermMetas.php:35
+msgid "Remove Icon"
+msgstr "Supprimer l'icône"
+
+#: ../app/Controllers/TermMetas.php:67
+msgid "Remove Map Icon"
+msgstr "Supprimer l'icône de la carte"
+
+#: ../app/Emails/UnreadMessageEmail.php:31
+msgid "[{site_title}] New Messages Waiting ({listing_title})"
+msgstr "[{site_title}] Nouveaux messages en attente ({listing_title})"
+
+#: ../app/Emails/UnreadMessageEmail.php:40
+msgid "New Message \"{listing_title}\""
+msgstr "Nouveau message \"{listing_title}\""
+
+#: ../app/Emails/UserVerifyLinkEmailToUser.php:31
+msgid "[{site_title}] Verify your email address"
+msgstr "[{site_title}] Validez votre adresse e-mail"
+
+#: ../app/Emails/UserVerifyLinkEmailToUser.php:40
+msgid "Verify your email address"
+msgstr ""
+
+#: ../app/Helpers/Api.php:98, ../app/Helpers/Api.php:112
+msgid "Denied api call"
+msgstr "Appel api refusé"
+
+#. translators: %s: rating
+#: ../app/Helpers/Fns.php:118
+msgid "Rated %s out of 5"
+msgstr "Noté %s sur 5"
+
+#: ../app/Helpers/Fns.php:115, ../app/Helpers/Fns.php:139
+msgid "Rated %1$s out of 5 based on %2$s customer rating"
+msgid_plural "Rated %1$s out of 5 based on %2$s customer ratings"
+msgstr[0] "Évalué %1$s sur 5 sur la base de l'évaluation client %2$s"
+msgstr[1] "Évalué %1$s sur 5 sur la base de les évaluations clients %2$s"
+
+#: ../app/Helpers/Options.php:14
+msgid "Listing seller information"
+msgstr "Informations sur le vendeur"
+
+#: ../app/Helpers/Options.php:31,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:228
+msgid "Popup"
+msgstr "Popup"
+
+#: ../app/Helpers/Options.php:32,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:229
+msgid "Auto Suggestion"
+msgstr "Suggestion automatique"
+
+#: ../app/Helpers/Options.php:33,
+#: ../app/Controllers/Elementor/Widgets/ListingSearchSortableForm.php:44
+msgid "Dependency Selection"
+msgstr "Sélection de dépendance"
+
+#: ../app/Helpers/Options.php:34,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:230
+msgid "Standard"
+msgstr "Standard"
+
+#: ../app/Helpers/Options.php:42
+msgid "List"
+msgstr "Liste"
+
+#: ../app/Helpers/Options.php:43
+msgid "Grid"
+msgstr "Grille"
+
+#: ../app/Helpers/Options.php:52
+msgid "Chat settings"
+msgstr "Paramètres du chat"
+
+#: ../app/Helpers/Options.php:54
+msgid ""
+"Regenerate Chat Table <a href=\"%s\" onClick=\"return confirm('Do you really "
+"want to Confirm this booking')\">Click Here.</a> <span style=\"color:red\">"
+"This will remove all chat history.</span>"
+msgstr ""
+"Régénérer la table de discussion <a href=\"%s\" onClick=\"return "
+"confirm('Voulez-vous vraiment confirmer cette réservation')\">Cliquez ici."
+"</a> <span style=\"color:red\">Cela supprimera tout l'historique des "
+"discussions.</span>"
+
+#: ../app/Helpers/Options.php:69, ../app/Helpers/Options.php:75,
+#: ../app/Gateways/WooPayment/GatewayWooPayment.php:97
+msgid "Enable"
+msgstr "Activer"
+
+#: ../app/Helpers/Options.php:71
+msgid "Enable Chat option"
+msgstr "Activer les options de Chat"
+
+#: ../app/Helpers/Options.php:74
+msgid "Unread Message Email"
+msgstr ""
+
+#: ../app/Helpers/Options.php:78
+msgid ""
+"Enable email for unread message trace to receiver, if receiver at offline "
+"<span style=\"color: red\">(Only for the first message)</span>."
+msgstr ""
+"Activer l'email pour le suivi des messages non lus vers le destinataire, si "
+"le destinataire est hors ligne <span style=\"color : red\">(Uniquement pour "
+"le premier message)</span>."
+
+#: ../app/Helpers/Options.php:87
+msgid "Delete inactive conversation (in days)"
+msgstr "Supprimer la conversation inactive (en jours)"
+
+#: ../app/Helpers/Options.php:91
+msgid ""
+"Auto remove inactive conversation which are last active in given days ago "
+"<span style=\"color: red\">(Leave it blank to alive conversation forever)"
+"</span>."
+msgstr ""
+"Supprimer automatiquement les conversations inactives qui ont été actives "
+"pour la dernière fois il y a quelques jours <span style=\"color: red\">"
+"(Laissez-le vide pour une conversation active pour toujours)</span>."
+
+#: ../app/Helpers/PNHelper.php:83
+msgid "Congratulations!"
+msgstr "Félicitations !"
+
+#: ../app/Helpers/PNHelper.php:94
+msgid "Your [%s] has been approved!"
+msgstr ""
+
+#: ../app/Helpers/PNHelper.php:106
+msgid "Listing expired."
+msgstr "Annonce expirée."
+
+#: ../app/Helpers/PNHelper.php:117
+msgid "Your [%s] has been expired!"
+msgstr ""
+
+#: ../app/Helpers/PNHelper.php:129
+msgid "New Listing created."
+msgstr "Nouvelle annonce créée."
+
+#: ../app/Helpers/PNHelper.php:140
+msgid "New listing is created [%s] at your site!"
+msgstr "La nouvelle annonce est créée [%s] sur votre site !"
+
+#: ../app/Helpers/PNHelper.php:152
+msgid "New Order Placed."
+msgstr "Nouvelle commande passée."
+
+#: ../app/Helpers/PNHelper.php:163
+msgid "New order is placed at your site [%s]"
+msgstr "Une nouvelle commande est passée sur votre site [%s]"
+
+#: ../app/Helpers/PNHelper.php:177
+msgid "You have a new Message."
+msgstr ""
+
+#: ../app/Models/Dependencies.php:76
+msgid "and"
+msgstr "et"
+
+#: ../app/Models/Dependencies.php:89
+msgid ""
+"<strong>Classified Listing Pro</strong> is enabled but not effective. It "
+"requires %s in order to work."
+msgstr ""
+"<strong>Classified Listing Pro</strong> est activé mais pas fonctionnel. Il "
+"nécessite %s pour fonctionner."
+
+#: ../app/Models/RtclLicense.php:188, ../app/Models/RtclLicense.php:182
+msgid "Please enter valid license key for automatic updates."
+msgstr ""
+"Veuillez saisir une clé de licence valide pour les mises à jour automatiques."
+
+#: ../app/Models/RtclLicense.php:188, ../app/Models/RtclLicense.php:182
+msgid "Click here"
+msgstr "Cliquez ici"
+
+#: ../app/Models/RtclLicense.php:281
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: ../app/Models/RtclLicense.php:273
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: ../app/Models/RtclLicense.php:474
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: ../app/Models/RtclLicense.php:474
+msgid "Error"
+msgstr "Erreur"
+
+#: ../app/Models/Subscription.php:74, ../app/Models/Subscription.php:108
+msgid "Update data cannot be empty"
+msgstr ""
+
+#: ../app/Models/Subscription.php:124
+msgid "Error while updating subscription data."
+msgstr "Erreur lors de la mise à jour des données d'abonnement."
+
+#: ../app/Models/Subscription.php:143
+msgid "Unknown status is given"
+msgstr ""
+
+#: ../app/Models/Subscription.php:146
+msgid "No change at status."
+msgstr "Pas de changement de statut."
+
+#: ../app/Models/Subscription.php:161
+msgid "Error while updating subscription status."
+msgstr "Erreur lors de la mise à jour de l'état de l'abonnement."
+
+#: ../app/Models/Subscriptions.php:111
+msgid "Error while creating subscription missing subId, gateway_id, name"
+msgstr ""
+"Erreur lors de la création de l'abonnement subId manquant, gateway_id, name"
+
+#: ../app/Models/Subscriptions.php:125
+msgid "Error while inserting subscription"
+msgstr "Erreur lors de l'insertion de l'abonnement"
+
+#: ../app/Models/UserAuthentication.php:60
+msgid "Your account hash, user id must be set"
+msgstr ""
+
+#: ../app/Models/UserAuthentication.php:69
+msgid "Your account email address already verified"
+msgstr ""
+
+#: ../app/Models/UserAuthentication.php:79
+msgid "Your account hash is not matched"
+msgstr ""
+
+#: ../app/Models/UserAuthentication.php:102
+msgid "Your account email address is verified"
+msgstr ""
+
+#: ../app/Api/V1/V1_AuthApi.php:23, ../app/Api/V1/V1_AuthApi.php:85
+msgid "User name / Email is required"
+msgstr ""
+
+#: ../app/Api/V1/V1_AuthApi.php:28
+msgid "User password required"
+msgstr ""
+
+#: ../app/Api/V1/V1_AuthApi.php:97, ../app/Api/V1/V1_AuthApi.php:272
+msgid "Username and password are required."
+msgstr ""
+
+#: ../app/Api/V1/V1_AuthApi.php:199
+msgid "Apple user is missing"
+msgstr "L'utilisateur Apple est manquant"
+
+#: ../app/Api/V1/V1_AuthApi.php:310, ../app/Api/V1/V1_AuthApi.php:331,
+#: ../app/Api/V1/V1_MyApi.php:285, ../app/Api/V1/V1_MyApi.php:390,
+#: ../app/Api/V1/V1_MyApi.php:659, ../app/Api/V1/V1_MyApi.php:838,
+#: ../app/Api/V1/V1_OrderApi.php:229, ../app/Api/V1/V1_OrderApi.php:257,
+#: ../app/Api/V1/V1_OrderApi.php:305
+msgid "You are not logged in."
+msgstr ""
+
+#: ../app/Api/V1/V1_AuthApi.php:342
+msgid "Could not delete user."
+msgstr "Impossible de supprimer l'utilisateur."
+
+#: ../app/Api/V1/V1_CommonApi.php:32, ../app/Api/V1/V1_CommonApi.php:52,
+#: ../app/Api/V1/V1_CommonApi.php:79
+msgid "The filter argument must be a integer."
+msgstr ""
+
+#: ../app/Api/V1/V1_CommonApi.php:38
+msgid "Category id"
+msgstr "Identifiant de catégorie"
+
+#: ../app/Api/V1/V1_CommonApi.php:60
+msgid "Parent Category id"
+msgstr "Identifiant de la catégorie parent"
+
+#: ../app/Api/V1/V1_CommonApi.php:65
+msgid "Listing type"
+msgstr "Type d'annonce"
+
+#: ../app/Api/V1/V1_CommonApi.php:87
+msgid "Parent location id"
+msgstr "Identifiant de la localisation parente"
+
+#: ../app/Api/V1/V1_CommonApi.php:102
+msgid "Contact sender name"
+msgstr "Contacter le nom de l'expéditeur"
+
+#: ../app/Api/V1/V1_CommonApi.php:107
+msgid "Contact phone number."
+msgstr "Numéro de téléphone du contact."
+
+#: ../app/Api/V1/V1_CommonApi.php:114
+msgid "The filter argument must be a email."
+msgstr ""
+
+#: ../app/Api/V1/V1_CommonApi.php:119
+msgid "Contact email required."
+msgstr "Email de contact requis"
+
+#: ../app/Api/V1/V1_CommonApi.php:127
+msgid "Contact message."
+msgstr "Message de contact."
+
+#: ../app/Api/V1/V1_CommonApi.php:197
+msgid "New"
+msgstr "Nouveau"
+
+#: ../app/Api/V1/V1_CommonApi.php:206,
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:266,
+#: ../app/Controllers/Hooks/TemplateHooks.php:335
+msgid "Popular"
+msgstr "Populaire"
+
+#: ../app/Api/V1/V1_CommonApi.php:215
+msgid "Featured"
+msgstr "En vedette"
+
+#: ../app/Api/V1/V1_CommonApi.php:224,
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:272,
+#: ../app/Controllers/Hooks/FilterHooks.php:414,
+#: ../app/Controllers/Hooks/TemplateHooks.php:322
+msgid "Top"
+msgstr ""
+
+#: ../app/Api/V1/V1_CommonApi.php:233,
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:278,
+#: ../app/Controllers/Hooks/FilterHooks.php:415,
+#: ../app/Controllers/Hooks/TemplateHooks.php:304
+msgid "Bump Up"
+msgstr "Monter en puissance"
+
+#: ../app/Api/V1/V1_ListingApi.php:33
+msgid "Category ids as array of integer or only single integer."
+msgstr ""
+"ID de catégorie sous forme de tableau d'entiers ou uniquement d'entiers "
+"uniques."
+
+#: ../app/Api/V1/V1_ListingApi.php:40
+msgid "Location ids as array of integer or only single integer."
+msgstr ""
+"ID d'emplacement sous forme de tableau d'entiers ou uniquement d'entiers "
+"uniques."
+
+#: ../app/Api/V1/V1_ListingApi.php:60
+msgid "custom_fields is an array or object or JSON object"
+msgstr "custom_fields est un tableau ou un objet ou un objet JSON"
+
+#: ../app/Api/V1/V1_ListingApi.php:63
+msgid "price range."
+msgstr "échelle des prix."
+
+#: ../app/Api/V1/V1_ListingApi.php:67
+msgid "Listing type."
+msgstr "Type d'annonce."
+
+#: ../app/Api/V1/V1_ListingApi.php:71
+msgid "Order by."
+msgstr "Classé par."
+
+#: ../app/Api/V1/V1_ListingApi.php:75, ../app/Api/V1/V1_ListingApi.php:89
+msgid "Promotion include filter"
+msgstr "Filtre d'inclusion des promotions"
+
+#: ../app/Api/V1/V1_ListingApi.php:82
+msgid "Promotion exclude filter"
+msgstr "Filtre d'exclusion des promotions"
+
+#: ../app/Api/V1/V1_ListingApi.php:105, ../app/Api/V1/V1_ListingApi.php:177,
+#: ../app/Api/V1/V1_ListingApi.php:196, ../app/Api/V1/V1_MyApi.php:97
+msgid "Listing id is required"
+msgstr "L'identifiant de l'annonce est requis"
+
+#: ../app/Api/V1/V1_ListingApi.php:143
+msgid "Locations ids as array of integers or only single integer."
+msgstr ""
+"Les identifiants d'emplacements sont un tableau d'entiers ou un seul entier."
+
+#: ../app/Api/V1/V1_ListingApi.php:147
+msgid "Category id integer."
+msgstr "Entier d'identifiant de catégorie."
+
+#: ../app/Api/V1/V1_ListingApi.php:151
+msgid "listing_type e.g. sell"
+msgstr "Type d'annonce, par ex. vendre"
+
+#: ../app/Api/V1/V1_ListingApi.php:158
+msgid "Image ids which will be deleted"
+msgstr "ID d'image qui seront supprimés"
+
+#: ../app/Api/V1/V1_ListingApi.php:162
+msgid "Image ids / name for new image ids, which will be deleted"
+msgstr "ID d'image / nom pour les nouvelles ID d'image, qui seront supprimés"
+
+#: ../app/Api/V1/V1_ListingApi.php:182
+msgid "message is the report details"
+msgstr "le message est pour les détails du rapport"
+
+#: ../app/Api/V1/V1_ListingApi.php:201
+msgid "name field is the sender name."
+msgstr "le champ nom est le nom de l'expéditeur."
+
+#: ../app/Api/V1/V1_ListingApi.php:206
+msgid "email field is the sender email."
+msgstr "le champ email est le courriel de l'expéditeur."
+
+#: ../app/Api/V1/V1_ListingApi.php:211
+msgid "message is the message details"
+msgstr "le message est pour les détails du message"
+
+#: ../app/Api/V1/V1_ListingApi.php:645, ../app/Api/V1/V1_MyApi.php:663
+msgid "Listing not found."
+msgstr "Annonce introuvable."
+
+#: ../app/Api/V1/V1_ListingApi.php:802
+msgid "Category is not valid"
+msgstr "La catégorie n'est pas valide"
+
+#: ../app/Api/V1/V1_ListingApi.php:791
+msgid "Please select ad type and category"
+msgstr "Veuillez sélectionner le type et la catégorie d'annonce"
+
+#: ../app/Api/V1/V1_ListingApi.php:794
+msgid "Please select an ad type"
+msgstr "Veuillez sélectionner un type d'annonce"
+
+#: ../app/Api/V1/V1_ListingApi.php:798
+msgid "Please select correct type and category"
+msgstr "Veuillez sélectionner le type et la catégorie corrects"
+
+#: ../app/Api/V1/V1_ListingApi.php:806
+msgid "Category not selected"
+msgstr "La catégorie n'est pas sélectionnée"
+
+#: ../app/Api/V1/V1_ListingApi.php:1002
+msgid "Internal Server Error"
+msgstr "Erreur interne du serveur"
+
+#: ../app/Api/V1/V1_MyApi.php:31
+msgid "First name is required field."
+msgstr "Le prénom est un champ obligatoire."
+
+#: ../app/Api/V1/V1_MyApi.php:36
+msgid "Last name is required field."
+msgstr "Le nom de famille est un champ obligatoire."
+
+#: ../app/Api/V1/V1_MyApi.php:54
+msgid "parameter image file field is required."
+msgstr "Le paramètre du champ fichier image est obligatoire."
+
+#: ../app/Api/V1/V1_MyApi.php:110
+msgid "Listing id is required (listing_id)"
+msgstr "L'identifiant de l'annonce est requis (listing_id)"
+
+#: ../app/Api/V1/V1_MyApi.php:147, ../app/Api/V1/V1_MyApi.php:180,
+#: ../app/Api/V1/V1_MyApi.php:211
+msgid "Listing is required"
+msgstr "L'annonce est obligatoire"
+
+#: ../app/Api/V1/V1_MyApi.php:160
+msgid "Listing id required"
+msgstr "Identifiant de l'annonce requis"
+
+#: ../app/Api/V1/V1_MyApi.php:194, ../app/Api/V1/V1_MyApi.php:228
+msgid "Conversation is required"
+msgstr "La conversation est requise"
+
+#: ../app/Api/V1/V1_MyApi.php:199
+msgid "Message limit"
+msgstr "Limite de messages"
+
+#: ../app/Api/V1/V1_MyApi.php:216, ../app/Api/V1/V1_MyApi.php:252
+msgid "Message text is required"
+msgstr "Le texte du message est requis"
+
+#: ../app/Api/V1/V1_MyApi.php:242, ../app/Api/V1/V1_MyApi.php:264
+msgid "Conversation ID is required"
+msgstr "L'ID de conversation est requis"
+
+#: ../app/Api/V1/V1_MyApi.php:247
+msgid "Listing ID is required"
+msgstr "L'identifiant de l'annonce est requis"
+
+#: ../app/Api/V1/V1_MyApi.php:269
+msgid "Message ID is required"
+msgstr "L'identifiant du message est requis"
+
+#: ../app/Api/V1/V1_MyApi.php:296
+msgid "You are not allow to access this."
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:403
+msgid "You are not permitted to access this conversation."
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:666
+msgid "Unauthorized access."
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:669
+msgid "You are not authorized to renew this listing."
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:673
+msgid "Listing is not expired."
+msgstr "L'annonce n'est pas expirée."
+
+#: ../app/Api/V1/V1_MyApi.php:772
+msgid "The password field is empty."
+msgstr ""
+
+#: ../app/Api/V1/V1_MyApi.php:776
+msgid "The two passwords you entered don't match."
+msgstr ""
+
+#: ../app/Api/V1/V1_OrderApi.php:48
+msgid "Checkout type's (promotion, membership)"
+msgstr "Type de paiement (promotion, adhésion)"
+
+#: ../app/Api/V1/V1_OrderApi.php:58
+msgid "Promotion type's (regular, membership)"
+msgstr "Type de promotion (régulier, abonnement)"
+
+#: ../app/Api/V1/V1_OrderApi.php:65
+msgid "%s must be regular or membership"
+msgstr "%s doit être régulier ou membre"
+
+#: ../app/Api/V1/V1_OrderApi.php:74
+msgid "Promotions for membership (membership_promotions)"
+msgstr "Promotions pour l'adhésion (membership_promotions)"
+
+#: ../app/Api/V1/V1_OrderApi.php:80
+msgid "Payment gateway id"
+msgstr "Identifiant de la passerelle de paiement"
+
+#: ../app/Api/V1/V1_OrderApi.php:85
+msgid "Plane id"
+msgstr "ID de l'avion"
+
+#: ../app/Api/V1/V1_OrderApi.php:91
+msgid "Credit card number (card_number)"
+msgstr "Numéro de la carte de crédit (card_number)"
+
+#: ../app/Api/V1/V1_OrderApi.php:97
+msgid "Credit card expired month (card_exp_month)"
+msgstr "Mois d'expiration de la carte de crédit (card_exp_month)"
+
+#: ../app/Api/V1/V1_OrderApi.php:103
+msgid "Credit card expired year (card_exp_year)"
+msgstr "Année d'expiration de la carte de crédit (card_exp_year)"
+
+#: ../app/Api/V1/V1_OrderApi.php:109
+msgid "Credit card CVC (card_cvc)"
+msgstr "CVC de la carte de crédit (card_cvc)"
+
+#: ../app/Api/V1/V1_OrderApi.php:115
+msgid "Stripe payment method id"
+msgstr ""
+
+#: ../app/Api/V1/V1_OrderApi.php:149, ../app/Api/V1/V1_OrderApi.php:199
+msgid "Order by"
+msgstr "Classé par"
+
+#: ../app/Api/V1/V1_OrderApi.php:153, ../app/Api/V1/V1_OrderApi.php:203
+msgid "Order"
+msgstr "Ordre"
+
+#: ../app/Api/V1/V1_OrderApi.php:166
+msgid "Payment id is required"
+msgstr "L'identifiant de paiement est requis"
+
+#: ../app/Api/V1/V1_OrderApi.php:216
+msgid "Order id is required"
+msgstr "L'identifiant de la commande est requis"
+
+#: ../app/Api/V1/V1_OrderApi.php:238
+msgid "Order not found."
+msgstr "Commande introuvable."
+
+#: ../app/Api/V1/V1_OrderApi.php:321
+msgid "Required data missing (plan_id, gateway_id, type)"
+msgstr "Données requises manquantes (plan_id, gateway_id, type)"
+
+#: ../app/Api/V1/V1_OrderApi.php:333
+msgid "Incorrect Plan or gateway"
+msgstr "Plan ou passerelle incorrect"
+
+#: ../app/Api/V1/V1_OrderApi.php:347
+msgid ""
+"Missing one of thous param card_number , card_exp_month, card_exp_year, "
+"card_cvc"
+msgstr ""
+"Il manque l'un des paramètres card_number , card_exp_month, card_exp_year, "
+"card_cvc"
+
+#: ../app/Api/V1/V1_OrderApi.php:362,
+#: ../app/Gateways/Stripe/GatewayStripe.php:873
+msgid "Unable to verify your request. Please reload the page and try again."
+msgstr ""
+
+#: ../app/Api/V1/V1_OrderApi.php:375
+msgid "No listing found to make payment."
+msgstr "Aucune annonce trouvée pour effectuer le paiement."
+
+#: ../app/Api/V1/V1_OrderApi.php:394,
+#: ../app/Gateways/WooPayment/WooPayment.php:432
+msgid "Order on"
+msgstr "Classé par"
+
+#: ../app/Api/V1/V1_OrderApi.php:423
+msgid "Error to create new payment."
+msgstr "Erreur lors de la création d'un nouveau paiement."
+
+#: ../app/Api/V1/V1_OrderApi.php:442
+msgid "Error to process the payment."
+msgstr "Erreur lors du traitement du paiement."
+
+#: ../app/Api/V1/V1_PushNotificationApi.php:21,
+#: ../app/Api/V1/V1_PushNotificationApi.php:42
+msgid ""
+"An Expo push token or an array of Expo push tokens specifying the "
+"recipient(s) of this message."
+msgstr ""
+"Un jeton push Expo ou un tableau de jetons push Expo spécifiant le ou les "
+"destinataires de ce message."
+
+#: ../app/Api/V1/V1_PushNotificationApi.php:26,
+#: ../app/Api/V1/V1_PushNotificationApi.php:47
+msgid "Push Notification event list of array."
+msgstr "Liste d'événements de notification push du tableau."
+
+#: ../app/Api/V1/V1_PushNotificationApi.php:69
+msgid "Push notification update error."
+msgstr "Erreur de mise à jour de la notification push."
+
+#: ../app/Api/V1/V1_ReviewApi.php:49
+msgid "Listing  ID"
+msgstr "Identifiant de l'annonce"
+
+#: ../app/Api/V1/V1_ReviewApi.php:54
+msgid "Review rating between 1-5"
+msgstr "Évaluation entre 1 et 5"
+
+#: ../app/Api/V1/V1_ReviewApi.php:61,
+#: ../templates/single-rtcl_listing-reviews.php:111
+msgid "Review title"
+msgstr "Titre du commentaire"
+
+#: ../app/Api/V1/V1_ReviewApi.php:66
+msgid "Review content"
+msgstr "Examiner le contenu"
+
+#: ../app/Api/V1/V1_ReviewApi.php:70
+msgid "Author ID"
+msgstr "Identifiant de l'auteur"
+
+#: ../app/Api/V1/V1_ReviewApi.php:74
+msgid "Author name"
+msgstr "Nom de l'auteur"
+
+#: ../app/Api/V1/V1_ReviewApi.php:79
+msgid "Author's email address"
+msgstr "Adresse email de l'auteur"
+
+#: ../app/Api/V1/V1_ReviewApi.php:84
+msgid "Specific parent comment ID"
+msgstr "ID de commentaire parent spécifique"
+
+#: ../app/Api/V1/V1_ReviewApi.php:98
+msgid "Sorry, review is disabled at this site."
+msgstr "Désolé, les avis sont désactivés sur ce site."
+
+#: ../app/Api/V1/V1_ReviewApi.php:116
+msgid ""
+"Limit response to comments published after a given ISO8601 compliant date."
+msgstr ""
+"Limitez la réponse aux commentaires publiés après une date de conformité "
+"ISO8601 donnée."
+
+#: ../app/Api/V1/V1_ReviewApi.php:122
+msgid ""
+"Limit result set to comments assigned to specific user IDs. Requires "
+"authorization."
+msgstr ""
+"Limiter l'ensemble de résultats aux commentaires attribués à des ID "
+"utilisateur spécifiques. Nécessite une autorisation."
+
+#: ../app/Api/V1/V1_ReviewApi.php:130
+msgid ""
+"Ensure result set excludes comments assigned to specific user IDs. Requires "
+"authorization."
+msgstr ""
+"Assurez-vous que l'ensemble des résultats exclut les commentaires attribués "
+"à des IDs utilisateur spécifiques. Nécessite une autorisation."
+
+#: ../app/Api/V1/V1_ReviewApi.php:139
+msgid ""
+"Limit result set to that from a specific author email. Requires "
+"authorization."
+msgstr ""
+"Limiter l'ensemble de résultats à celui d'un email d'auteur spécifique. "
+"Nécessite une autorisation."
+
+#: ../app/Api/V1/V1_ReviewApi.php:145
+msgid ""
+"Limit response to comments published before a given ISO8601 compliant date."
+msgstr ""
+"Limitez la réponse aux commentaires publiés avant une date donnée conforme à "
+"la norme ISO8601."
+
+#: ../app/Api/V1/V1_ReviewApi.php:151
+msgid "Ensure result set excludes specific IDs."
+msgstr "Assurez-vous que l'ensemble des résultats exclut des ID spécifiques."
+
+#: ../app/Api/V1/V1_ReviewApi.php:160
+msgid "Limit result set to specific IDs."
+msgstr "Limiter le jeu de résultats à des ID spécifiques."
+
+#: ../app/Api/V1/V1_ReviewApi.php:170
+msgid "Limit result set to comments of specific parent IDs."
+msgstr ""
+"Limiter l'ensemble de résultats aux commentaires d'ID parents spécifiques."
+
+#: ../app/Api/V1/V1_ReviewApi.php:179
+msgid "Ensure result set excludes specific parent IDs."
+msgstr ""
+"Assurez-vous que l'ensemble des résultats exclut des IDs parents spécifiques."
+
+#: ../app/Api/V1/V1_ReviewApi.php:187
+msgid "Limit result set to listing IDS"
+msgstr "Limiter le jeu de résultats à l'IDS de l'annonce"
+
+#: ../app/Api/V1/V1_ReviewApi.php:196
+msgid ""
+"Limit result set to comments assigned a specific status. Requires "
+"authorization."
+msgstr ""
+"Limiter l'ensemble de résultats aux commentaires auxquels un statut "
+"spécifique a été attribué. Nécessite une autorisation."
+
+#: ../app/Api/V1/V1_ReviewApi.php:204
+msgid ""
+"Limit result set to comments assigned a specific type. Requires "
+"authorization."
+msgstr ""
+"Limiter le jeu de résultats aux commentaires affectés à un type spécifique. "
+"Nécessite une autorisation."
+
+#: ../app/Api/V1/V1_ReviewApi.php:211
+msgid "The password for the post if it is password protected."
+msgstr ""
+
+#: ../app/Api/V1/V1_ReviewApi.php:398
+msgid "Sorry, you must be logged in to comment."
+msgstr "Désolé, vous devez être connecté pour déposer un commentaire."
+
+#. translators: %s: Request parameter.
+#: ../app/Api/V1/V1_ReviewApi.php:408, ../app/Api/V1/V1_ReviewApi.php:418,
+#: ../app/Api/V1/V1_ReviewApi.php:428
+msgid "Sorry, you are not allowed to edit '%s' for comments."
+msgstr ""
+"Désolé, vous n'êtes pas autorisé à modifier '%s' pour les commentaires."
+
+#: ../app/Api/V1/V1_ReviewApi.php:436
+msgid "Sorry, you are not allowed to create this review without a listing."
+msgstr "Désolé, vous n'êtes pas autorisé à créer cet avis sans annonce."
+
+#: ../app/Api/V1/V1_ReviewApi.php:446
+msgid "Sorry, you are not allowed to create this comment without a post."
+msgstr ""
+"Désolé, vous n'êtes pas autorisé à créer de commentaire sans publication."
+
+#: ../app/Api/V1/V1_ReviewApi.php:454
+msgid "Sorry, you are not allowed to review at your own listing."
+msgstr ""
+"Désolé, vous n'êtes pas autorisé à donner votre avis sur votre propre "
+"annonce."
+
+#: ../app/Api/V1/V1_ReviewApi.php:462
+msgid "Sorry, you are not allowed to create a review on this listing."
+msgstr "Désolé, vous n'êtes pas autorisé à déposer un avis sur cette annonce."
+
+#: ../app/Api/V1/V1_ReviewApi.php:470
+msgid "Sorry, you are not allowed to create a review on this post."
+msgstr ""
+"Désolé, vous n'êtes pas autorisé à déposer un avis pour cette publication"
+
+#: ../app/Api/V1/V1_ReviewApi.php:478
+msgid "Sorry, you are not allowed to read the listing for this review."
+msgstr "Désolé, vous n'êtes pas autorisé à lire l'annonce de cet avis."
+
+#: ../app/Api/V1/V1_ReviewApi.php:486
+msgid "Sorry, reviews are closed for this item."
+msgstr "Désolé, les avis sont fermés pour cet article."
+
+#: ../app/Api/V1/V1_ReviewApi.php:523
+msgid "Creating a comment requires valid author name and email values."
+msgstr ""
+"La création d'un commentaire nécessite un nom d'auteur et des valeurs "
+"d'email valides."
+
+#: ../app/Api/V1/V1_ReviewApi.php:547
+msgid "Comment field exceeds maximum length allowed."
+msgstr "Le champ de commentaire dépasse la longueur maximale autorisée."
+
+#: ../app/Api/V1/V1_ReviewApi.php:654
+msgid "Creating review failed."
+msgstr "Échec de la création de l'avis."
+
+#: ../app/Api/V1/V1_ReviewApi.php:727
+msgid "Invalid comment author ID."
+msgstr "ID d'auteur de commentaire non valide."
+
+#: ../app/Api/V1/V1_WebHookApi.php:56
+msgid ""
+"Invalid signature received. Verify that your webhook secret is correct. "
+"Error: %s"
+msgstr ""
+"Signature invalide reçue. Vérifiez que la confidentialité du lien de rappel "
+"est correcte. Erreur : %s"
+
+#: ../app/Api/V1/V1_WebHookApi.php:58
+msgid "Invalid signature received. Verify that your webhook secret is correct."
+msgstr ""
+"Signature invalide reçue. Vérifiez que la confidentialité du lien de rappel "
+"est correcte."
+
+#: ../app/Api/V1/V1_WebHookApi.php:60
+msgid "Error processing webhook. Message: %s Exception: %s"
+msgstr ""
+"Erreur lors du traitement du lien de rappel. Message : %s Exception : %s"
+
+#: ../app/Controllers/Ajax/RtclProAjax.php:52
+msgid "Session expired!!"
+msgstr "La session a expiré !!"
+
+#: ../app/Controllers/Ajax/RtclProAjax.php:59
+msgid "Unauthorized action"
+msgstr ""
+
+#: ../app/Controllers/Ajax/RtclProAjax.php:71,
+#: ../app/Controllers/Hooks/TemplateHooks.php:100
+msgid "Mark as unsold"
+msgstr "Marquer comme invendu"
+
+#: ../app/Controllers/Ajax/RtclProAjax.php:65,
+#: ../app/Controllers/Hooks/TemplateHooks.php:100
+msgid "Mark as sold"
+msgstr "Marquer comme vendu"
+
+#: ../app/Controllers/Blocks/PricingTable.php:506,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:329
+msgid "--Select--"
+msgstr "--Sélectionner--"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:44
+msgid "Popular Label"
+msgstr "Étiquette populaire"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:45
+msgid "Top Label"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:46
+msgid "Bump Up Label"
+msgstr "Agrandir l'étiquette"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:54
+msgid "Subscription"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:56
+msgid "Subscription for membership"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:57
+msgid ""
+"Recurring payment with auto renew <span style=\"color: red\">(Available only "
+"with Stripe & AuthorizeNet)</span>"
+msgstr ""
+"Paiement récurrent avec renouvellement automatique <span style=\"color: "
+"red\">(Disponible uniquement avec Stripe et AuthorizeNet)</span>"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:73
+msgid "Account verify"
+msgstr "Vérification du compte"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:127
+msgid "App Management"
+msgstr "Gestion des applications"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:131
+msgid "Allow REST API"
+msgstr "Autoriser l'API REST"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:133,
+#: ../app/Controllers/Hooks/FilterHooks.php:225
+msgid "Allow to handle data to app."
+msgstr "Autoriser la gestion des données vers l'application."
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:136
+msgid "REST API key"
+msgstr "Clé API REST"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:139
+msgid ""
+"This is one time generated key. Do not recreate this key. if you regenerate "
+"then you need to change the key from your application where you are "
+"currently using."
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:150
+msgid "Required gallery image"
+msgstr "Image de galerie requise"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:152
+msgid "Make gallery image mandatory."
+msgstr "Rendre l'image de la galerie obligatoire."
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:160
+msgid "Disable gallery zoom"
+msgstr "Désactiver le zoom de la galerie"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:162,
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:167
+msgid "Disable"
+msgstr "Désactiver"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:165
+msgid "Disable gallery lightbox"
+msgstr "Désactiver l'éclairage des cases de la galerie"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:168
+msgid "Disable gallery lightbox (PopUp lightbox Gallery)"
+msgstr ""
+"Désactiver l'éclairage des cases de la galerie (popup de la galerie des "
+"cases)"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:179
+msgid "Top label background color"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:183
+msgid "Top label text color"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:187
+msgid "Popular label background color"
+msgstr "Couleur d'arrière-plan populaire de l'étiquette"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:191
+msgid "Popular label text color"
+msgstr "Couleur de texte d'étiquette populaire"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:195
+msgid "BumpUp label background color"
+msgstr "Augmenter la couleur d'arrière-plan de l'étiquette"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:199
+msgid "BumpUp text color"
+msgstr "Augmenter la couleur du texte"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:211
+msgid "Admin Menu Access role"
+msgstr "Rôle d'accès au menu administrateur"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:215
+msgid ""
+"Allowed all Classified Listing Admin Menu access to a user role as like "
+"Administrator. [<span style=\"color: red;\">NOT RECOMMENDED</span>]"
+msgstr ""
+"Autorisé à tous les accès du menu Admin des annonces classées à un rôle "
+"d'utilisateur en tant qu'administrateur. [<span style=\"color: red;\">NON "
+"RECOMMANDÉ</span>]"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:224
+msgid "Allow post for unregister user"
+msgstr "Autoriser la publication pour l'utilisateur non inscrit"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:226
+msgid "Allow visitor to create a post and account will create automatically"
+msgstr ""
+"Autoriser le visiteur à créer une publication et le compte sera créé "
+"automatiquement"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:229
+msgid "User Verification"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:231
+msgid ""
+"User Registration will be pending and a verification email will send to the "
+"user email."
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:234
+msgid "Max Re-send attempts"
+msgstr "Nombre maximal de tentatives d'envoi"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:244
+msgid ""
+"Max number of re-send requests a user can make, more than that, his account "
+"will be locked."
+msgstr ""
+"Nombre maximum de demandes d'envoi qu'un utilisateur peut effectuer, au-delà,"
+" son compte sera verrouillé."
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:255
+msgid "Popular listing threshold (in views count)"
+msgstr "Seuil de liste populaire (en nombre de vues)"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:258
+msgid ""
+"Enter the minimum number of views required for a listing to be tagged as "
+"\"Popular\"."
+msgstr ""
+"Entrez le nombre minimum de vues requis pour qu'une fiche soit marquée comme "
+"\"Populaire\"."
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:264
+msgid "Label text for popular listings"
+msgstr "Texte de l'étiquette pour les annonces populaires"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:267
+msgid "Enter the text you want to use inside the \"Popular\" tag."
+msgstr ""
+"Entrez le texte que vous souhaitez utiliser à l'intérieur de la balise "
+"\"Popular\"."
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:270
+msgid "Label text for Top listings"
+msgstr "Texte de l'étiquette pour les meilleures annonces"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:273
+msgid "Enter the text you want to use inside the \"Top\" tag."
+msgstr ""
+"Entrez le texte que vous souhaitez utiliser à l'intérieur de la balise "
+"\"Top\"."
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:276
+msgid "Label text for Bump Up listings"
+msgstr "Texte de l'étiquette pour agrandir les annonces"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:279
+msgid "Enter the text you want to use inside the \"Bump Up\" tag."
+msgstr ""
+"Entrez le texte que vous souhaitez utiliser à l'intérieur de la balise "
+"\"Bump Up\"."
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:282
+msgid "Enable top listing at listing page"
+msgstr "Activer les top annonces sur la page des annonces"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:285
+msgid "Enable top listing"
+msgstr "Activer les top annonces"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:288
+msgid "Top listing number to display"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:291
+msgid "Enter number of top listing to display at listing page"
+msgstr ""
+"Entrez le numéro de la meilleure annonce à afficher sur la page de liste"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:294
+msgid "Registered user only"
+msgstr "Réservé aux utilisateurs enregistrés"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:304
+msgid "Enable review rating"
+msgstr "Activer la notation des avis"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:306
+msgid "Allow visitors to make review rating."
+msgstr "Autoriser les visiteurs à faire une évaluation."
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:309
+msgid "Enable update rating"
+msgstr "Activer l'évaluation des mises à jour"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:311
+msgid ""
+"If same user try to add duplicate post than allow it to update previous one."
+msgstr ""
+"Si le même utilisateur essaie d'ajouter un message en double, autorisez-le à "
+"mettre à jour le précédent."
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:322
+msgid "Enable quick view"
+msgstr "Activer la vue rapide"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:324
+msgid "Enable Quick view."
+msgstr "Activer la vue Rapide"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:327,
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:329
+msgid "Enable compare"
+msgstr "Activer la comparaison"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:332
+msgid "Compare limit"
+msgstr "Limite de comparaison"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:336
+msgid "Maximum number of listings to compare"
+msgstr "Nombre maximum d'annonces à comparer"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:339,
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:341
+msgid "Enable Mark as Sold"
+msgstr "Activer Marquer comme vendu"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:344
+msgid "Default Listing view"
+msgstr "Vue par défaut des annonces"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:348
+msgid "List view"
+msgstr "Vue liste"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:349
+msgid "Grid view"
+msgstr "Vue de la grille"
+
+#: ../app/Controllers/Hooks/AdminSettingsHook.php:374
+msgid "Pro settings"
+msgstr "Paramètres version pro"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:107
+msgid "Main plugin license key"
+msgstr "Clé de licence principale du plugin"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:197
+msgid "App"
+msgstr "Application"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:207
+msgid "App push notifications"
+msgstr "Notifications push de l'application"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:211
+msgid "App schema"
+msgstr "Schéma de l'application"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:213
+msgid "myapp"
+msgstr "myapp"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:215
+msgid ""
+"At your react native app folder -> app.json \"expo\": {\"scheme\": <b>"
+"\"myapp\"</b>}"
+msgstr ""
+"Dans le dossier de votre application native de réaction -> app.json \"expo\":"
+" {\"scheme\": <b>\"myapp\"</b>}"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:222
+msgid "Allow Events"
+msgstr "Autoriser les événements"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:228
+msgid "Disable In App Purchase"
+msgstr "Désactiver l'achat dans l'application"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:230
+msgid ""
+"Disable in app purchase, This will turn off membership and promotion feature "
+"from app."
+msgstr ""
+"Désactiver l'achat dans l'application. Cela désactivera la fonctionnalité "
+"d'adhésion et de promotion de l'application."
+
+#: ../app/Controllers/Hooks/FilterHooks.php:422
+msgid "Featured only"
+msgstr "En vedette seulement"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:423
+msgid "Top Only"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:424
+msgid "Featured and Top"
+msgstr "En vedette et Top"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:425
+msgid "All Type"
+msgstr "Tous les types"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:427
+msgid "Map"
+msgstr "Plan"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:498
+msgid "Show category image / icon"
+msgstr "Afficher l'image/l'icône de la catégorie"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:502
+msgid "Search by Rating"
+msgstr "Rechercher par note"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:506
+msgid "Search by Custom Fields"
+msgstr "Recherche par champs personnalisés"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:704
+msgid "Show More"
+msgstr "Afficher plus"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:677
+msgid "Search by %s"
+msgstr "Recherche par %s"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:661,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:127,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1019
+msgid "Date"
+msgstr "Date"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:646
+msgid "Min."
+msgstr "Mini"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:648
+msgid "Max."
+msgstr "Maxi"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:747
+msgid "5.0"
+msgstr "5.0"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:748
+msgid "4.5 & up"
+msgstr "4.5 et plus"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:749
+msgid "4.0 & up"
+msgstr "4.0 et plus"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:750
+msgid "3.5 & up"
+msgstr "3.5 et plus"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:751
+msgid "3.0 & up"
+msgstr "3.0 et plus"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:778
+msgid "Ratings"
+msgstr "Notes"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:837
+msgid "Orientation"
+msgstr "Orientation"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:840,
+#: ../app/Controllers/Elementor/Widgets/ListingSearchSortableForm.php:60
+msgid "Vertical"
+msgstr ""
+
+#: ../app/Controllers/Hooks/FilterHooks.php:841
+msgid "inline"
+msgstr "en ligne"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:901,
+#: ../app/Controllers/Hooks/TemplateHooks.php:413
+msgid "Offline Now"
+msgstr "Hors ligne maintenant"
+
+#: ../app/Controllers/Hooks/FilterHooks.php:902,
+#: ../app/Controllers/Hooks/TemplateHooks.php:417
+msgid "Online Now"
+msgstr "Maintenant en ligne"
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:85
+msgid "Please <a href='%s'>login</a> to view the seller information."
+msgstr ""
+"Veuillez <a href='%s'>vous connecter</a> pour afficher les informations sur "
+"le vendeur."
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:167
+msgid "Add to compare list"
+msgstr "Ajouter à la liste de comparaison"
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:179
+msgid "Quick view"
+msgstr "Aperçu rapide"
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:429
+msgid "Sold Out"
+msgstr "Solder"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:87,
+#: ../app/Gateways/Stripe/GatewayStripe.php:376
+msgid "Enable/Disable"
+msgstr "Active / Désactive"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:89
+msgid "Enable Authorize.Net"
+msgstr "Activer Authorize.Net"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:92,
+#: ../app/Gateways/Stripe/GatewayStripe.php:381,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:128,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:783,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:108,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:216,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:744,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:820,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1018
+msgid "Title"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:94
+msgid "This controls the title which the buyer sees during checkout."
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:95
+msgid "Authorize.Net"
+msgstr "Authorize.Net"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:98,
+#: ../app/Gateways/Stripe/GatewayStripe.php:388,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:205,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:768,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:774
+msgid "Description"
+msgstr "Description"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:100,
+#: ../app/Gateways/Stripe/GatewayStripe.php:390
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:101
+msgid "All cards are charged by &copy;Authorize.Net &#174;&#8482; servers."
+msgstr ""
+"Toutes les cartes sont débitées par les serveurs de &copy;Authorize.Net "
+"&#174;&#8482; ."
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:104
+msgid "API Login ID"
+msgstr "ID de connexion à l'API"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:106
+msgid "This is the API Login ID Authorize.net."
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:108
+msgid "Authorize.Net API Login ID"
+msgstr "ID de connexion à l'API Authorize.Net"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:111
+msgid "Transaction Key"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:113
+msgid "This is the Transaction Key of Authorize.Net."
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:115
+msgid "Authorize.Net Transaction Key"
+msgstr "Clé de transaction Authorize.Net"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:118
+msgid "Authorize.Net sandbox"
+msgstr "Bac à sable Authorize.Net"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:120
+msgid "Enable Authorize.Net sandbox (Live Mode if Unchecked)"
+msgstr "Activer le bac à sable Authorize.Net (mode direct si décoché)"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:121
+msgid "If checked its in sandbox mode and if unchecked its in live mode"
+msgstr "Si coché, c'est en mode sandbox et si décoché, c'est en mode live"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:125
+msgid "Authorize Only"
+msgstr "Autoriser uniquement"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:127
+msgid ""
+"Enable Authorize Only Mode (Authorize & Capture If Unchecked).<span "
+"style=\"color:red;\">Make sure to keep <b>Unchecked</b> if your Address "
+"Verification Service (AVS) is set to hold transaction for review.</span>"
+msgstr ""
+"Activer le mode d'autorisation uniquement (autoriser et capturer si décoché)."
+"<span style=\"color:red;\">Assurez-vous de garder <b>décoché</b> si votre "
+"service de vérification d'adresse (AVS) est configuré pour retenir la "
+"transaction pour examen .</span>"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:128
+msgid "If checked will only authorize the credit card only upon checkout."
+msgstr ""
+"Si cette case est cochée, la carte de crédit n'est autorisée qu'au moment du "
+"paiement."
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:132
+msgid "Authorize.Net + Cartspan"
+msgstr "Authorize.Net "
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:134
+msgid "Enable Authorize.Net Metas for Cartspan"
+msgstr "Activer les Metas Authorize.Net pour Cartspan"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:135
+msgid ""
+"If checked will store last4 and card brand in local db from Transaction "
+"response"
+msgstr ""
+"Si coché, Last4 et la marque de la carte seront stockés dans la base de "
+"données locale à partir de la réponse de la transaction"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:139
+msgid "Accepted Cards"
+msgstr "Cartes acceptées"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:143
+msgid "Select the card types to accept."
+msgstr "Sélectionnez les types de cartes à accepter."
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:156,
+#: ../app/Gateways/Stripe/GatewayStripe.php:513
+msgid "Webhook url"
+msgstr ""
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:158
+msgid ""
+"<strong>Important:</strong> the webhook url is called by Authorize.net when "
+"events occur in your account, like a source becomes chargeable. You must add "
+"this webhook to your Stripe Dashboard if you are using any of the local "
+"gateways. %1$sWebhook guide%2$s"
+msgstr ""
+"<strong>Important :</strong> l'url du lien de rappel est appelée par "
+"Authorize.net lorsque des événements se produisent dans votre compte, comme "
+"une source qui devient payante. Vous devez ajouter ce lien de rappel à votre "
+"tableau de bord Stripe si vous utilisez l'une des passerelles locales. "
+"%1$sGuide lien de rappel%2$s"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:162
+msgid "Signature Key"
+msgstr "Clé de signature"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:163
+msgid "Signature Key. %1$sWebhook guide%2$s"
+msgstr "Clé de signature. %1$sGuide lien de rappel%2$s"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:190,
+#: ../app/Gateways/Stripe/GatewayStripe.php:805
+msgid "Card Number"
+msgstr "Numéro de la carte"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:200
+msgid "Expiry (MM/YY)"
+msgstr "Expiration (MM/AA)"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:204
+msgid "MM / YY"
+msgstr "MM / YY"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:208
+msgid "Card Code"
+msgstr "Code de la carte"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:212
+msgid "CVC"
+msgstr "CVC"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:229
+msgid "Payment not found"
+msgstr "Paiement introuvable"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:279
+msgid "Card expired month or year / CVC is not defined."
+msgstr "La carte a expiré le mois ou l'année ou le le CVC n'est pas défini."
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:421,
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:423
+msgid "Payment error: Please check your credit card details and try again."
+msgstr ""
+"Erreur de paiement : veuillez vérifier les détails de votre carte de crédit "
+"et réessayer."
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:320
+msgid ""
+"Authorize.Net payment %1$s for %2$s. Transaction ID: %3$s.\n"
+"\n"
+" <strong>AVS Response:</strong> %4$s.\n"
+"\n"
+" <strong>CVV2 Response:</strong> %5$s."
+msgstr ""
+"Authorize.Net paiement %1$s pour %2$s. Identifiant de la transaction : %3$s."
+"\n"
+"\n"
+"  <strong>Réponse AVS :</strong> %4$s.\n"
+"\n"
+"  <strong>Réponse CVV2 :</strong> %5$s."
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:592,
+#: ../app/Gateways/Stripe/GatewayStripe.php:1127
+msgid "No subscription found to remove"
+msgstr "Aucun abonnement trouvé à supprimer"
+
+#: ../app/Gateways/Authorize/GatewayAuthorize.php:596
+msgid "This subscription is not active."
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:83
+msgid "Stripe"
+msgstr "Stripe"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:190
+msgid "Rest Api permission error"
+msgstr "Erreur d'autorisation Rest Api"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:212
+msgid "You are not logged in or Order is missing."
+msgstr ""
+
+#. translators: %s is the order Id
+#: ../app/Gateways/Stripe/GatewayStripe.php:314
+msgid "Payment Intent not found for order #%s"
+msgstr "Intention de paiement introuvable pour la commande #%s"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:343
+msgid "Stripe Credit cards payment gateway addon for Classified listing"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:344
+msgid ""
+"Stripe is a company that provides a way for individuals and businesses to "
+"accept payments over the Internet."
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:378
+msgid "Enable Stripe"
+msgstr "Activer Stripe"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:383
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:385
+msgid "Credit/Debit Cards"
+msgstr "carte de crédit ou de débit"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:392
+msgid ""
+"All cards are stored by &copy;Stripe servers we do not store any card details"
+msgstr ""
+"Toutes les cartes sont stockées par des serveurs &copy;Stripe, nous ne "
+"stockons aucune information sur les cartes"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:396
+msgid "Stripe Account Keys"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:400
+msgid "Test mode"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:401
+msgid "Enable Test Mode"
+msgstr "Activer le mode test"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:403
+msgid "Place the payment gateway in test mode using test API keys."
+msgstr ""
+"Mettez la passerelle de paiement en mode test à l'aide des clés API de test."
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:407
+msgid "Test Publishable Key"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:409,
+#: ../app/Gateways/Stripe/GatewayStripe.php:441
+msgid "This is the Publishable Key found in API Keys in Account Dashboard."
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:423
+msgid "Test Secret Key"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:425,
+#: ../app/Gateways/Stripe/GatewayStripe.php:457
+msgid "This is the Secret Key found in API Keys in Account Dashboard."
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:439
+msgid "Live Publishable Key"
+msgstr "Clé publiable en direct"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:455
+msgid "Live Secret Key"
+msgstr "Clé secrète en direct"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:471
+msgid "Inline Credit Card Form"
+msgstr "Formulaire de carte de crédit en ligne"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:473
+msgid ""
+"Choose the style you want to show for your credit card form. When unchecked, "
+"the credit card form will display separate credit card number field, expiry "
+"date field and cvc field."
+msgstr ""
+"Choisissez le style que vous souhaitez afficher pour votre formulaire de "
+"carte de crédit. Lorsqu'elle n'est pas cochée, le formulaire de carte de "
+"crédit affichera un champ de numéro de carte de crédit, un champ de date "
+"d'expiration et un champ cvc séparés."
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:477
+msgid "Statement Descriptor"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:479
+msgid ""
+"Statement descriptors are limited to 22 characters, cannot use the special "
+"characters >, <, \", , ', *, /, (, ), {, }, and must not consist solely of "
+"numbers. This will appear on your customer's statement in capital letters."
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:483
+msgid "Capture"
+msgstr "Capture"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:484
+msgid "Capture charge immediately"
+msgstr "Capturez la charge immédiatement"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:486
+msgid ""
+"Whether or not to immediately capture the charge. When unchecked, the charge "
+"issues an authorization and will need to be captured later. Uncaptured "
+"charges expire in 7 days."
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:490
+msgid "Enable stripe receipt email"
+msgstr "Activer l'email de réception Stripe"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:492
+msgid "Enable receipt email from Stripe (Active If Checked)"
+msgstr "Activer l'email de réception de Stripe (actif si coché)"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:493
+msgid ""
+"If checked will send stripe receipt email to billing email in live mode only"
+msgstr ""
+"Si coché, l'email de réception Stripe sera envoyé à l'email de facturation "
+"en mode direct uniquement"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:498
+msgid "Saved Cards"
+msgstr "Cartes enregistrées"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:499
+msgid "Enable Payment via Saved Cards"
+msgstr "Activer le paiement via des cartes enregistrées"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:501
+msgid ""
+"If enabled, users will be able to pay with a saved card during checkout. "
+"Card details are saved on Stripe servers, not on your store."
+msgstr ""
+"Si cette option est activée, les utilisateurs pourront payer avec une carte "
+"enregistrée lors du paiement. Les détails de la carte sont enregistrés sur "
+"les serveurs Stripe, pas sur votre boutique."
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:505
+msgid "Force 3D Secure"
+msgstr "Forcer la sécurité 3D"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:509
+msgid ""
+"Stripe internally determines when 3D secure should be presented based on "
+"their SCA engine. If <strong>Force 3D Secure</strong> is enabled, 3D Secure "
+"will be forced for ALL credit card transactions. In test mode 3D secure only "
+"shows for %1$s3DS Test Cards%2$s regardless of this setting."
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:515
+msgid ""
+"<strong>Important:</strong> the webhook url is called by Stripe when events "
+"occur in your account, like a source becomes chargeable. You must add this "
+"webhook to your Stripe Dashboard if you are using any of the local gateways. "
+"%1$sWebhook guide%2$s"
+msgstr ""
+"<strong>Important :</strong> l'url du lien de rappel est appelée par Stripe "
+"lorsque des événements se produisent dans votre compte, comme une source qui "
+"devient payante. Vous devez ajouter ce lien de rappel à votre tableau de "
+"bord Stripe si vous utilisez l'une des passerelles locales. %1$sGuide "
+"Webhook%2$s"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:519
+msgid "Live Webhook Secret"
+msgstr "Confidentialité du lien de rappel en direct"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:520,
+#: ../app/Gateways/Stripe/GatewayStripe.php:533
+msgid ""
+"The webhook secret is used to authenticate webhooks sent from Stripe. It "
+"ensures no 3rd party can send you events, pretending to be Stripe. "
+"%1$sWebhook guide%2$s"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:532
+msgid "Test Webhook Secret"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:544
+msgid "Logging"
+msgstr "Enregistrement"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:545
+msgid "Log debug messages"
+msgstr "Consigner les messages de débogage"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:547
+msgid "Save debug messages to the Classified Listing System Status log."
+msgstr ""
+"Enregistrez les messages de débogage dans le journal d'état du système des "
+"petites annonces."
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:716
+msgid ""
+"<strong>%s</strong> is enabled and Classified listing is not forcing the SSL "
+"on your checkout page. Please ensure that you have a valid SSL certificate "
+"and that you are <a href=\"%s\">forcing the checkout pages to be secured.</a>"
+msgstr ""
+"<strong>%s</strong> est activé et la liste des petites annonces ne force pas "
+"le SSL sur votre page de paiement. Veuillez vous assurer que vous disposez "
+"d'un certificat SSL valide et que vous <a href=\"%s\">forcez la sécurisation "
+"des pages de paiement.</a>"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:817
+msgid "Expiry Date"
+msgstr "Date d'expiration"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:825
+msgid "Card Code (CVC)"
+msgstr "Code de la carte (CVC)"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:797
+msgid "Credit or debit card"
+msgstr "carte de crédit ou de débit"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:855
+msgid "Payment not found!"
+msgstr "Paiement introuvable !"
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:920
+msgid "Your order is created and please confirm your order"
+msgstr ""
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:968
+msgid ""
+"Sorry, we're not accepting prepaid cards at this time. Your credit card has "
+"not been charged. Please try with alternative payment method."
+msgstr ""
+"Désolé, nous n'acceptons pas les cartes prépayées pour le moment. Votre "
+"carte de crédit n'a pas été débitée. Veuillez essayer avec un autre mode de "
+"paiement."
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:981,
+#: ../app/Gateways/Stripe/lib/StripePaymentGateway.php:663
+msgid "Payment processing failed. Please retry."
+msgstr "Le traitement du paiement a échoué. Veuillez réessayer."
+
+#: ../app/Gateways/Stripe/GatewayStripe.php:1131
+msgid "This subscription is already canceled."
+msgstr ""
+
+#: ../app/Gateways/WooPayment/GatewayWooPayment.php:18
+msgid "WooCommerce Payout"
+msgstr ""
+
+#: ../app/Gateways/WooPayment/GatewayWooPayment.php:19
+msgid "WooCommerce Payment"
+msgstr ""
+
+#: ../app/Gateways/WooPayment/GatewayWooPayment.php:20
+msgid "Make a payment with WooCommerce payment methods."
+msgstr "Effectuer un paiement avec les méthodes de paiement WooCommerce."
+
+#: ../app/Gateways/WooPayment/GatewayWooPayment.php:79
+msgid "This payment is %s, please click the link beside to enable/disable."
+msgstr ""
+
+#: ../app/Gateways/WooPayment/GatewayWooPayment.php:99
+msgid "Enable WooCommerce Payment"
+msgstr "Activer le paiement WooCommerce"
+
+#: ../app/Gateways/WooPayment/GatewayWooPayment.php:100
+msgid ""
+"<span style=\"color: red\">If <strong>WooCommerce Payment</strong> is "
+"enabled you can not use other payments provided by ClassifiedListing.</span>"
+msgstr ""
+"<span style=\"color: red\">Si le <strong>paiement WooCommerce</strong> est "
+"activé, vous ne pouvez pas utiliser d'autres paiements fournis par "
+"ClassifiedListing.</span>"
+
+#: ../app/Gateways/WooPayment/GatewayWooPayment.php:103
+msgid "WooCommerce Payments"
+msgstr ""
+
+#: ../app/Gateways/WooPayment/GatewayWooPayment.php:106
+msgid ""
+"List of all available payment gateways installed and activated for "
+"WooCommerce. Click on a payment method to go to <strong>WooCommerce "
+"Payment</strong> settings."
+msgstr ""
+"Liste de toutes les passerelles de paiement disponibles installées et "
+"activées pour WooCommerce. Cliquez sur un mode de paiement pour accéder aux "
+"paramètres de <strong>Paiement WooCommerce</strong>."
+
+#: ../app/Gateways/WooPayment/WooPayment.php:166
+msgid ""
+"This order is related to Classified Listing Payment, For WooCommerce payment "
+"please change order status from here it will auto change in Classified "
+"Listing Plugin order. <a href=\"%s\">You can view the order from Classified "
+"Listing Payment History also.</a>"
+msgstr ""
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:63
+msgid "Custom Field's"
+msgstr "Les champs personnalisés"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:70,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:832,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:898,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:965,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:682,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:750,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:798,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:853,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:901,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:459,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:585,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:676,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:786,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:829
+msgid "Typography"
+msgstr ""
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:74,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:809
+msgid "Spacing"
+msgstr "Espacement"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:87,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:705,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:745,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:803,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:818,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:870,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:885,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:937,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:952,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:565,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:694,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:765,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:791,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:859,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:970,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:1015,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:702,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:732,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:856,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:871
+msgid "Color"
+msgstr "Couleur"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:111
+msgid "Rand"
+msgstr "Rand"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:136
+msgid "Show compare icon"
+msgstr "Afficher l'icône de comparaison"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:137,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:157,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:188,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:198,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:209,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:95,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:116,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:148,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:157,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:166,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:186,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:195,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:213,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:251,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:260,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:269,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:278,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:320,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:329,
+#: ../app/Controllers/Elementor/Widgets/ListingSearchSortableForm.php:157,
+#: ../app/Controllers/Elementor/Widgets/ListingSearchSortableForm.php:186,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:139,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1091,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1119
+msgid "On"
+msgstr "Activé"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:138,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:158,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:189,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:199,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:210,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:96,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:117,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:149,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:158,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:167,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:187,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:196,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:214,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:252,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:261,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:270,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:279,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:321,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:330,
+#: ../app/Controllers/Elementor/Widgets/ListingSearchSortableForm.php:158,
+#: ../app/Controllers/Elementor/Widgets/ListingSearchSortableForm.php:187,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:140,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1092,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1120
+msgid "Off"
+msgstr "Désactivé"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:140,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:160
+msgid "Show or Hide Icon. Default: On"
+msgstr "Afficher ou masquer l'icône. Par défaut : Activé"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:145
+msgid "Compare icon order"
+msgstr "Comparer l'ordre des icônes"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:147,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:167
+msgid "Icon order"
+msgstr "Ordre des icônes"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:156
+msgid "Show chat icon"
+msgstr "Afficher l'icône de chat"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:165
+msgid "Chat icon order"
+msgstr "Ordre des icônes de chat"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:187
+msgid "Show Custom fields"
+msgstr "Afficher les champs personnalisés"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:191,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:201,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:212
+msgid "Only work for Pro. Default: Off"
+msgstr "Ne fonctionne que pour Pro. Par défaut : Désactivé"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:197
+msgid "Show Quick View"
+msgstr "Afficher la vue rapide"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:208
+msgid "Show Compare"
+msgstr "Afficher Comparer"
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:279,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:338,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:365,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:1043,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:101
+msgid "Style 3"
+msgstr ""
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:306,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:334,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:361,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:406,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:1042,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:100
+msgid "Style 2"
+msgstr ""
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:342,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:369,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:1044
+msgid "Style 4"
+msgstr ""
+
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:346,
+#: ../app/Controllers/Elementor/Hooks/ELFilterHooksPro.php:373
+msgid "Style 5"
+msgstr ""
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:36
+msgid "Category Slider"
+msgstr "Curseur de la catégorie"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:42
+msgid "1 Col"
+msgstr "Col 1"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:43
+msgid "2 Col"
+msgstr "2 Cols"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:44
+msgid "3 Col"
+msgstr "3 Cols"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:45
+msgid "4 Col"
+msgstr "4 Cols"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:46
+msgid "5 Col"
+msgstr "5Cols"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:47
+msgid "6 Col"
+msgstr "6 Cols"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:67,
+#: ../app/Controllers/Elementor/Widgets/ListingSearchSortableForm.php:169,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:92,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1031
+msgid "General"
+msgstr "Général"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:72,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:1039,
+#: ../app/Controllers/Elementor/Widgets/ListingSearchSortableForm.php:173,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:97,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1038
+msgid "Style"
+msgstr ""
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:79,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1080
+msgid "Categories"
+msgstr "Catégories"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:82
+msgid ""
+"Start typing category names. If empty then all parent categories will be "
+"displayed"
+msgstr ""
+"Commencez à saisir les noms des catégories. Si vide, toutes les catégories "
+"parentes seront affichées."
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:87
+msgid "Category Limit"
+msgstr "Limite de catégorie"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:89
+msgid "How Many Category will Display ?"
+msgstr "Combien de catégories seront affichées ?"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:94
+msgid "Display Sub Category"
+msgstr "Afficher la sous catégorie"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:104
+msgid "Child Category Limit"
+msgstr "Limite de catégorie enfant"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:106
+msgid "How Many Child Category will Display ?"
+msgstr "Combien de catégories d'enfants s'afficheront ?"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:115
+msgid "Counts Include Children"
+msgstr "Les comptes incluent les sous comptes enfants"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:123,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1143
+msgid "Order By"
+msgstr "Classé Par"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:125,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:601,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1023
+msgid "None"
+msgstr "Aucun"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:126,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1020
+msgid "ID"
+msgstr "ID"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:129
+msgid "Count"
+msgstr "Montant"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:130
+msgid "Custom Order"
+msgstr "Commande personnalisée"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:137,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1150
+msgid "Sort By"
+msgstr "Trier par"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:139,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1152
+msgid "Ascending"
+msgstr "Ascendant"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:140,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1153
+msgid "Descending"
+msgstr "Décroissant"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:147
+msgid "Hide Empty"
+msgstr "Masquer si vide"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:151
+msgid "Hide Categories that has no listings. Default: On"
+msgstr "Masquer les catégories qui n'ont pas d'annonces. Par défaut : Activé"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:156
+msgid "Show Icon/Image"
+msgstr "Afficher l'icône/l'image"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:160
+msgid "Show or Hide Listing Icon/Image. Default: On"
+msgstr "Afficher ou masquer l'icône/l'image de la liste. Par défaut : Activé"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:165
+msgid "Show Title"
+msgstr "Afficher le titre"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:169
+msgid "Show or Hide Category Title. Default: On"
+msgstr "Afficher ou masquer le titre de la catégorie. Par défaut : Activé"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:174
+msgid "Icon Type"
+msgstr "Type des icônes"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:176
+msgid "Image"
+msgstr "Image"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:177
+msgid "Icon"
+msgstr "Icône"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:185
+msgid "Listing Counts"
+msgstr "Nombre d'annonces"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:189
+msgid "Show or Hide Listing Counts. Default: On"
+msgstr "Afficher ou masquer le nombre d'annonces. Par défaut : Activé"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:194
+msgid "Category Description"
+msgstr "Description de la catégorie"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:198
+msgid "Show or Hide Listing Description. Default: On"
+msgstr "Afficher ou masquer la description de l'annonce. Par défaut : Activé"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:204
+msgid "Description Word Limit"
+msgstr "Limite de mots d'une description"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:206
+msgid "Number of Words to display"
+msgstr "Nombre de mots à afficher"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:212
+msgid "Display Child category"
+msgstr "Afficher la catégorie enfant"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:216,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:263,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:323,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:332
+msgid "Loop to first item. Default: On"
+msgstr "Boucle au premier élément. Par défaut : Activé"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:223,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:232
+msgid "Content alignment"
+msgstr "Alignement du contenu"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:245
+msgid "Slider Options"
+msgstr "Options de curseur"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:250
+msgid "Auto Height"
+msgstr "Hauteur automatique"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:253
+msgid "Auto Height. Default: On"
+msgstr "Hauteur automatique. Par défaut : Activé"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:259
+msgid "Loop"
+msgstr "Boucle"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:268
+msgid "Autoplay"
+msgstr "Lecture automatique"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:272
+msgid "Enable or disable autoplay. Default: On"
+msgstr "Activer ou désactiver la lecture automatique. Par défaut : Activé"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:277
+msgid "Stop on Hover"
+msgstr ""
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:281
+msgid "Stop autoplay on mouse hover. Default: On"
+msgstr ""
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:287
+msgid "Autoplay Delay"
+msgstr "Délai de lecture automatique"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:289
+msgid "7 Seconds"
+msgstr "7 Secondes"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:290
+msgid "6 Seconds"
+msgstr "6 Secondes"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:291
+msgid "5 Seconds"
+msgstr "5 Secondes"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:292
+msgid "4 Seconds"
+msgstr "4 Seconds"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:293
+msgid "3 Seconds"
+msgstr "3 Seconds"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:294
+msgid "2 Seconds"
+msgstr "2 Secondex"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:295
+msgid "1 Second"
+msgstr "1 Seconde"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:298
+msgid ""
+"Set any value for example 5 seconds to play it in every 5 seconds. Default: "
+"5 Seconds"
+msgstr ""
+"Définissez n'importe quelle valeur, par exemple 5 secondes, pour la lire "
+"toutes les 5 secondes. Par défaut : 5 secondes"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:304
+msgid "Autoplay Slide Speed"
+msgstr "Vitesse de lecture automatique des diapositives"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:306
+msgid "Slide speed in milliseconds. Default: 200"
+msgstr "Vitesse de glissement en millisecondes. Par défaut : 200"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:312
+msgid "Space Between"
+msgstr "Intervalle"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:314
+msgid "Space Between. Default: 20"
+msgstr "Intervalle. Par défaut : 20"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:319
+msgid "Arrow Navigation"
+msgstr "Flèche de navigation"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:328
+msgid "Dot Navigation"
+msgstr "Navigation par points"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:352
+msgid "Number of Responsive Columns"
+msgstr "Nombre de colonnes réactives"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:357
+msgid "Desktops: >1199px"
+msgstr "Ordinateurs de bureau : > 1 199 px"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:364
+msgid "Desktops: >991px"
+msgstr "Ordinateurs de bureau : > 991 px"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:371
+msgid "Tablets: >767px"
+msgstr ""
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:378
+msgid "Phones: >575px"
+msgstr "Téléphones : > 575 pixels"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:385
+msgid "Small Phones: <576px"
+msgstr "Petits téléphones : < 576 pixels"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:405,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:1041,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:99
+msgid "Style 1"
+msgstr ""
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:426
+msgid "Box style"
+msgstr "Style de la boîte"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:430
+msgid "Gutter pading"
+msgstr "Espacement des gouttières"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:441
+msgid "Box pading"
+msgstr "Espacement de la boîte"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:451
+msgid "Head Section Pading"
+msgstr "Espacement de la section de tête"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:464
+msgid "Body Section Pading"
+msgstr "Espacement de la section du corps"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:492,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:546
+msgid "Head background"
+msgstr "Arrière plan du haut"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:503,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:557
+msgid "Body background"
+msgstr "Arrière plan du corp"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:513,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:567,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:492,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:531,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:559,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:653,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:688,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:964
+msgid "Background"
+msgstr "Arrière plan"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:528,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:582,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:727,
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:763,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:943
+msgid "Box Shadow"
+msgstr "Ombre de la boîte"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:599
+msgid "Content Vertical Alignment"
+msgstr "Alignement vertical du contenu"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:602
+msgid "Middle"
+msgstr "Milieu"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:616
+msgid "Icon And Image"
+msgstr "Icône et image"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:622
+msgid "Icon Area"
+msgstr "Zone d'icônes"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:639,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:270,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:381,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:571
+msgid "Icon Size"
+msgstr "Taille des icônes"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:657,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1159
+msgid "Image Size"
+msgstr "Taille de l'image"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:668,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:481,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:943
+msgid "Border Radius"
+msgstr "Rayon de la bordure"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:681,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:904
+msgid "Image Spacing"
+msgstr "Espacement de l'image"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:721
+msgid "Icon Bg Color"
+msgstr "Couleur du fond de l'icône"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:757
+msgid "Icon Bg Hover Color"
+msgstr "Couleur du fond de l'icône au survol"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:836,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:754,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:833
+msgid "Title Spacing"
+msgstr ""
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:851
+msgid "Counter"
+msgstr "Compteur"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:902
+msgid "Counter Spacing"
+msgstr "Espacement du compteur"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:918
+msgid "Short Description"
+msgstr "Description courte"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:969,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:970
+msgid "Content Spacing"
+msgstr "Espacement du contenu"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:984,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:267
+msgid "Slider Navigation"
+msgstr "Navigation par curseur"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:989
+msgid "Arrow Position"
+msgstr "Emplacement de la flèche"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:991
+msgid "Center"
+msgstr "Centrer"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:992
+msgid "Left Top"
+msgstr "Haut gauche"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:993
+msgid "Right Top"
+msgstr "Haut droit"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:1001,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:286
+msgid "Arrow Navigation Border Radius"
+msgstr "Rayon de la bordure de navigation des flèches"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:1013,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:94,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:153,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:224,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:302,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:374,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:465,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:633,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:936
+msgid "Background Color"
+msgstr "Couleur de l'arrière plan"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:1019,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:311
+msgid "Hover Background Color"
+msgstr "Couleur d'arrière-plan au survol"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:1026,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:338
+msgid "Dot Navigation Settings"
+msgstr "Paramètres de la navigation par points"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:1055,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:351
+msgid "Dot Navigation Spacing"
+msgstr "Espacement de la navigation par points"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:1078
+msgid "Default Color"
+msgstr "Couleur par défaut"
+
+#: ../app/Controllers/Elementor/Widgets/ListingCategorySlider.php:1091
+msgid "Active Color"
+msgstr "Couleur active"
+
+#: ../app/Controllers/Elementor/Widgets/ListingSearchSortableForm.php:30
+msgid "Search Form - Sortable"
+msgstr "Formulaire de recherche - Triable"
+
+#: ../app/Controllers/Elementor/Widgets/ListingSearchSortableForm.php:59
+msgid "Inline"
+msgstr "En ligne"
+
+#: ../app/Controllers/Elementor/Widgets/ListingSearchSortableForm.php:73
+msgid "Keywords"
+msgstr "Mots clés"
+
+#: ../app/Controllers/Elementor/Widgets/ListingSearchSortableForm.php:74
+msgid "Location"
+msgstr "Emplacement"
+
+#: ../app/Controllers/Elementor/Widgets/ListingSearchSortableForm.php:75,
+#: ../templates/compare/content.php:64
+msgid "Category"
+msgstr "Catégorie"
+
+#: ../app/Controllers/Elementor/Widgets/ListingSearchSortableForm.php:76
+msgid "Types"
+msgstr ""
+
+#: ../app/Controllers/Elementor/Widgets/ListingSearchSortableForm.php:77,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:132,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:785,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:576,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1021,
+#: ../templates/compare/content.php:62
+msgid "Price"
+msgstr "prix"
+
+#: ../app/Controllers/Elementor/Widgets/ListingSearchSortableForm.php:88
+msgid "Field's"
+msgstr "Champs"
+
+#: ../app/Controllers/Elementor/Widgets/ListingSearchSortableForm.php:95
+msgid "Label"
+msgstr "Etiquette"
+
+#: ../app/Controllers/Elementor/Widgets/ListingSearchSortableForm.php:100
+msgid "Placeholder"
+msgstr "Espace réservé"
+
+#: ../app/Controllers/Elementor/Widgets/ListingSearchSortableForm.php:156
+msgid "Radius Search"
+msgstr "Recherche par distance"
+
+#: ../app/Controllers/Elementor/Widgets/ListingSearchSortableForm.php:179
+msgid "Oriantation"
+msgstr "Orientation"
+
+#: ../app/Controllers/Elementor/Widgets/ListingSearchSortableForm.php:185
+msgid "Show fields Label"
+msgstr "Afficher les champs Libellé"
+
+#: ../app/Controllers/Elementor/Widgets/ListingSearchSortableForm.php:194
+msgid "Field Types"
+msgstr "Types de champs"
+
+#: ../app/Controllers/Elementor/Widgets/ListingSearchSortableForm.php:201
+msgid "Icon Alignment"
+msgstr "Alignement des icônes"
+
+#: ../app/Controllers/Elementor/Widgets/ListingSearchSortableForm.php:205,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:124
+msgid "Left"
+msgstr "Gauche"
+
+#: ../app/Controllers/Elementor/Widgets/ListingSearchSortableForm.php:209,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:125
+msgid "Right"
+msgstr "Droite"
+
+#: ../app/Controllers/Elementor/Widgets/ListingSearchSortableForm.php:216,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:375
+msgid "Button Icon"
+msgstr "Icone du bouton"
+
+#: ../app/Controllers/Elementor/Widgets/ListingSearchSortableForm.php:221,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:344
+msgid "Button Text"
+msgstr "Texte du bouton"
+
+#: ../app/Controllers/Elementor/Widgets/ListingSearchSortableForm.php:224,
+#: ../templates/widgets/search.php:223
+msgid "Search"
+msgstr "Recherche"
+
+#: ../app/Controllers/Elementor/Widgets/ListingSlider.php:35
+msgid "Listing Slider"
+msgstr "Curseur de liste"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:34
+msgid "Pricing Table"
+msgstr "Tableau des prix"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:114
+msgid "Currency Symbol"
+msgstr "Symbole de la monnaie"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:116
+msgid "Currency sign eg. $"
+msgstr "Signe de devise, par exemple : $"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:122
+msgid "Currency Position"
+msgstr "Position de la devise"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:138
+msgid "Show Per Sign"
+msgstr "Afficher par signe"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:142
+msgid "Show or Hide Per Sign. Default: On"
+msgstr "Afficher ou masquer par signe. Par défaut : Activé"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:150
+msgid "Unit Name"
+msgstr ""
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:152
+msgid "eg. month or year. Keep empty if you don't want to show unit"
+msgstr ""
+"par exemple. mois ou année. Laisser vide si vous ne voulez pas afficher "
+"l'unité"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:157,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:673
+msgid "Badge"
+msgstr "Badge"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:163,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:551
+msgid "Header Icon"
+msgstr "Icône d'en-tête"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:175
+msgid "Content Alignment"
+msgstr "Alignement du Contenu"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:197,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:847
+msgid "Feature"
+msgstr "Fonctionnalité"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:202
+msgid "Features Text As"
+msgstr "Caractéristiques du texte en tant que"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:204
+msgid "List Style"
+msgstr "Style de liste"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:218
+msgid "List Title"
+msgstr "Titre de la liste"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:223
+msgid "Icon Before Title"
+msgstr "Icône avant le titre"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:249
+msgid "Features"
+msgstr "Caractéristiques"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:252
+msgid "One line per feature eg. 10 Ads per month Featured on first week"
+msgstr ""
+"Une ligne par fonctionnalité. Par exemple : 10 annonces par mois en vedette "
+"la première semaine"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:260
+msgid "Icon Before List"
+msgstr "Icône avant la liste"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:290,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:404
+msgid "Icon Gap"
+msgstr "Écart d'icône"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:338,
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:895,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:78
+msgid "Button"
+msgstr "Bouton"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:350
+msgid "Button Link Type"
+msgstr "Type de lien du bouton"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:352
+msgid "Pricing Page Link"
+msgstr "Lien vers la page de tarification"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:353
+msgid "Custom Link"
+msgstr "Lien personnalisé"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:360
+msgid "Button URL"
+msgstr "URL du bouton"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:367
+msgid "Select Pricing"
+msgstr "Sélectionnez la tarification"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:444
+msgid "Wrapper"
+msgstr ""
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:447,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:959
+msgid "Wrapper Spacing"
+msgstr ""
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:514
+msgid "Header"
+msgstr "Entête"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:520
+msgid "Header Spacing"
+msgstr "Espacement d'en-tête"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:605
+msgid "Body"
+msgstr "Corps"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:611
+msgid "Body Spacing"
+msgstr "Espacement du corp"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:636
+msgid "Footer"
+msgstr "Bas de page"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:642
+msgid "Pricing Footer Spacing"
+msgstr "Espacement des pieds de page"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:698
+msgid "Width"
+msgstr ""
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:713
+msgid "Height"
+msgstr "Hauteur"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:805
+msgid "Currency Typography"
+msgstr "Typographie des devises"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:821
+msgid "Unit Typography"
+msgstr ""
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:827
+msgid "Unit Color"
+msgstr ""
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:863
+msgid "Feature Spacing"
+msgstr "Espacement des fonctions"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:874,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:321
+msgid "Icon Color"
+msgstr "Couleur de l'icône"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:905
+msgid "Button Spacing"
+msgstr "Espacement du bouton"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:914
+msgid "Button Pading"
+msgstr "Espacement du bouton"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:924
+msgid "Min width"
+msgstr "Largeur minimale"
+
+#: ../app/Controllers/Elementor/Widgets/PricingTable.php:1009
+msgid "Background Hover"
+msgstr "Survol de l'arrière-plan"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:88,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:697,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:851
+msgid "Normal"
+msgstr "Normal"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:106,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:241,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:473,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:645
+msgid "Text Color"
+msgstr ""
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:119,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:981
+msgid "Border"
+msgstr "Bordure"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:147,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:727,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:866
+msgid "Hover"
+msgstr "Survol"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:165
+msgid "Text Color In hover"
+msgstr ""
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:176
+msgid "Border Color"
+msgstr "Couleur de la bordure"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:208
+msgid "Pagination"
+msgstr "Pagination"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:212
+msgid "Pagination spacing"
+msgstr "Espace de pagination"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:232,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:387
+msgid "Active Background Color"
+msgstr "Couleur d'arrière-plan active"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:249
+msgid "Active Text Color"
+msgstr "Couleur de texte active"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:330
+msgid "Icon Hover Color"
+msgstr "Couleur de l'icône au survol"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:417
+msgid "Badge "
+msgstr "Badge"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:420
+msgid "padding"
+msgstr "espacement"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:430
+msgid "Margin"
+msgstr "Marge"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:442
+msgid "Sold Out Background Color"
+msgstr "Couleur de fond des soldes"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:450
+msgid "Sold Out Text Color"
+msgstr "Couleur de texte des soldes"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:481
+msgid "Top Background Color"
+msgstr ""
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:489
+msgid "Top Text Color"
+msgstr ""
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:497
+msgid "Featured Background Color"
+msgstr "Couleur d'arrière-plan en vedette"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:505
+msgid "Featured Text Color"
+msgstr "Couleur du texte en vedette"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:513
+msgid "New Background Color"
+msgstr "Nouvelle couleur de fond"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:521
+msgid "New Text Color"
+msgstr "Nouvelle couleur de texte"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:529
+msgid "Popular Background Color"
+msgstr "Couleur de fond populaire"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:537
+msgid "Popular Text Color"
+msgstr "Couleur de texte populaire"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:545
+msgid "Bump Up Background Color"
+msgstr "Augmenter la couleur d'arrière-plan"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:553
+msgid "Bump Up Text Color"
+msgstr "Augmenter la couleur du texte"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:593
+msgid "Unit Label Typography"
+msgstr ""
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:601
+msgid "Unit Label Text Color"
+msgstr ""
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:609
+msgid "Price padding"
+msgstr "Espacement des prix"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:622
+msgid "Price Margin"
+msgstr "Marge du prix"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:669
+msgid "Meta"
+msgstr "Méta"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:680
+msgid "Meta Spacing"
+msgstr "Espacement méta"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:711,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:741
+msgid "Meta Icon Color"
+msgstr "Couleur de l'icône méta"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:718,
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:751
+msgid "Category Color"
+msgstr "Couleur de la catégorie"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:793
+msgid "Short Description Color"
+msgstr "Couleur de la description courte"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:799
+msgid "On Items Hover Description color"
+msgstr "Couleur de la description au survol des éléments"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:899
+msgid "Image Wrapper"
+msgstr "Décor de l'image"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:931
+msgid "Item Wrapper"
+msgstr "Emballage de l'article"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:951
+msgid "Hover Box Shadow"
+msgstr "Ombre de la boîte au survol"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1022
+msgid "Views"
+msgstr ""
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1051
+msgid "Promotions"
+msgstr "Promotions"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1059
+msgid "Promotions Exclude"
+msgstr "Promotions exclues"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1067
+msgid "Listing Types"
+msgstr "Types d'annonce"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1084
+msgid "Start typing category names. If empty then all listings will display."
+msgstr ""
+"Commencez à saisir les noms des catégories. Si vide, toutes les listes "
+"s'afficheront."
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1090
+msgid "Include Children Categories"
+msgstr "Inclure les catégories d'enfants"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1109
+msgid "Locations"
+msgstr "Emplacements"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1113
+msgid "Start typing locations names."
+msgstr ""
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1118
+msgid "Include Inner Location"
+msgstr "Inclure l'emplacement intérieur"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1135
+msgid "Listing Limit"
+msgstr "Limite d'annonce"
+
+#: ../app/Controllers/Elementor/WidgetSettings/ListingSliderSettings.php:1137
+msgid "Number of listing to display"
+msgstr "Nombre d'annonces à afficher"
+
+#: ../app/Gateways/Authorize/lib/AuthNetAPI.php:66,
+#: ../app/Gateways/Authorize/lib/AuthNetAPI.php:89
+msgid "Empty transaction object."
+msgstr "Objet de transaction vide."
+
+#: ../app/Gateways/Authorize/lib/AuthNetAPI.php:126,
+#: ../app/Gateways/Authorize/lib/AuthNetAPI.php:149,
+#: ../app/Gateways/Authorize/lib/AuthNetAPI.php:173,
+#: ../app/Gateways/Authorize/lib/AuthNetAPI.php:196,
+#: ../app/Gateways/Authorize/lib/AuthNetAPI.php:220
+msgid "Subscription type object."
+msgstr ""
+
+#: ../app/Gateways/Authorize/lib/AuthNetAPI.php:288,
+#: ../app/Gateways/Authorize/lib/AuthNetAPI.php:323
+msgid "There was a problem connecting to the payment gateway."
+msgstr ""
+
+#: ../app/Gateways/Authorize/lib/AuthNetAPI.php:293
+msgid "Transaction errors: "
+msgstr ""
+
+#: ../app/Gateways/Authorize/lib/AuthNetAPI.php:329
+msgid "Subscription errors: "
+msgstr ""
+
+#: ../app/Gateways/Authorize/lib/AuthNetWebhook.php:370,
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:1000
+msgid "Product not found while creating order for subscription transaction"
+msgstr ""
+"Produit introuvable lors de la création de la commande pour la transaction "
+"d'abonnement"
+
+#: ../app/Gateways/Authorize/lib/AuthNetWebhook.php:426,
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:1048
+msgid "Error while creating new order for subscription recurring."
+msgstr ""
+"Erreur lors de la création d'une nouvelle commande pour un abonnement "
+"récurrent."
+
+#: ../app/Gateways/Stripe/lib/StripeAPI.php:167,
+#: ../app/Gateways/Stripe/lib/StripeAPI.php:209
+msgid "There was a problem connecting to the Stripe API endpoint."
+msgstr ""
+
+#. translators: %1$s First name, %2$s Second name.
+#: ../app/Gateways/Stripe/lib/StripeCustomer.php:145
+msgid "Name: %1$s %2$s, Guest"
+msgstr "Nom : %1$s %2$s, Invité"
+
+#: ../app/Gateways/Stripe/lib/StripeCustomer.php:129
+msgid "Name: %1$s %2$s, Username: %3$s"
+msgstr "Nom : %1$s %2$s, nom d'utilisateur : %3$s"
+
+#: ../app/Gateways/Stripe/lib/StripeCustomer.php:207
+msgid "Attempting to update a Stripe customer without a customer ID."
+msgstr "Tentative de mise à jour du client Stripe sans ID client."
+
+#: ../app/Gateways/Stripe/lib/StripeCustomer.php:363
+msgid "Unable to add payment source."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeCustomer.php:420
+msgid "Unable to add payment method."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:521
+msgid "The card number is not a valid credit card number."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:522
+msgid "The card's expiration month is invalid."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:523
+msgid "The card's expiration year is invalid."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:524
+msgid "The card's security code is invalid."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:525
+msgid "The card number is incorrect."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:526
+msgid "The card number is incomplete."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:527
+msgid "The card's security code is incomplete."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:528
+msgid "The card's expiration date is incomplete."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:529
+msgid "The card has expired."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:530
+msgid "The card's security code is incorrect."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:531
+msgid "The card's zip code failed validation."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:532
+msgid "The card's expiration year is in the past"
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:533
+msgid "The card was declined."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:534
+msgid "There is no card on a customer that is being charged."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:535
+msgid "An error occurred while processing the card."
+msgstr "Une erreur s'est produite lors du traitement de la carte."
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:536
+msgid ""
+"The billing country is not accepted by SOFORT. Please try another country."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:537
+msgid "Invalid email address, please correct and try again."
+msgstr "Adresse email invalide, veuillez la corriger et réessayer."
+
+#: ../app/Gateways/Stripe/lib/StripeHelper.php:538
+msgid ""
+"Unable to process this payment, please try again or use alternative method."
+msgstr ""
+
+#. translators: 1) amount (including currency symbol)
+#: ../app/Gateways/Stripe/lib/StripePaymentGateway.php:336
+msgid ""
+"Sorry, the minimum allowed order total is %1$s to use this payment method."
+msgstr ""
+"Désolé, le minimum de commande est de %1$s pour utiliser ce mode de paiement."
+
+#. translators: 1) blog name 2) order number
+#: ../app/Gateways/Stripe/lib/StripePaymentGateway.php:561
+msgid "%1$s - Order %2$s"
+msgstr "%1$s - Commandez %2$s"
+
+#: ../app/Gateways/Stripe/lib/StripePaymentGateway.php:583
+msgid "customer_name"
+msgstr "customer_name"
+
+#: ../app/Gateways/Stripe/lib/StripePaymentGateway.php:584
+msgid "customer_email"
+msgstr "customer_email"
+
+#. translators: transaction id
+#: ../app/Gateways/Stripe/lib/StripePaymentGateway.php:673
+msgid ""
+"Stripe charge authorized (Charge ID: %s). Process order to take payment, or "
+"cancel to remove the pre-authorization. Attempting to refund the order in "
+"part or in full will release the authorization and cancel the payment."
+msgstr ""
+"Traitement du débit autorisé (ID de charge : %s). Traitez la commande pour "
+"accepter le paiement ou annulez pour supprimer la pré-autorisation. Toute "
+"tentative de remboursement partiel ou total de la commande annulera "
+"l'autorisation et annulera le paiement."
+
+#. translators: transaction id
+#: ../app/Gateways/Stripe/lib/StripePaymentGateway.php:652,
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:421
+msgid "Stripe charge complete (Charge ID: %s)"
+msgstr "Paiement Stripe effectué (ID de charge : %s)"
+
+#: ../app/Gateways/Stripe/lib/StripePaymentGateway.php:643
+msgid "Stripe charge awaiting payment: %s."
+msgstr "En attente de paiement Stripe : %s."
+
+#: ../app/Gateways/Stripe/lib/StripePaymentGateway.php:894,
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:274
+msgid ""
+"Sorry, we are unable to process your payment at this time. Please retry "
+"later."
+msgstr ""
+"Désolé, nous ne sommes pas en mesure de traiter votre paiement pour le "
+"moment. Veuillez réessayer ultérieurement."
+
+#. translators: 1) The URL to the order.
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:333
+msgid ""
+"A dispute was created for this order. Response is needed. Please go to your "
+"<a href=\"%s\" title=\"Stripe Dashboard\" target=\"_blank\">Stripe "
+"Dashboard</a> to review this dispute."
+msgstr ""
+"Un litige a été créé pour cette commande. Une réponse est nécessaire. "
+"Veuillez vous rendre sur votre <a href=\"%s\" title=\"Stripe Dashboard\" "
+"target=\"_blank\">Tableau de bord Stripe</a> pour examiner ce litige."
+
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:365
+msgid "The inquiry or retrieval was closed."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:363
+msgid "The dispute was resolved in your favor."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:361
+msgid "The dispute was lost or accepted."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:416
+msgid ""
+"This charge was partially captured via Stripe Dashboard in the amount of: %s"
+msgstr ""
+"Cette charge a été partiellement capturée via le tableau de bord Stripe pour "
+"un montant de : %s"
+
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:456
+msgid "This payment failed to clear."
+msgstr ""
+
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:492
+msgid "This payment was cancelled."
+msgstr ""
+
+#. translators: amount (including currency symbol)
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:537
+msgid "Pre-Authorization for %s voided from the Stripe Dashboard."
+msgstr "Pré-autorisation pour %s annulée depuis le tableau de bord Stripe"
+
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:550
+msgid "Refunded via Stripe Dashboard"
+msgstr "Remboursé via Stripe"
+
+#. translators: 1) amount (including currency symbol) 2) transaction id 3) refund message
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:572
+msgid "Refunded %1$s - Refund ID: %2$s - %3$s"
+msgstr "%1$s remboursé - ID de remboursement : %2$s - %3$s"
+
+#. translators: 1) The URL to the order. 2) The reason type.
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:604
+msgid ""
+"A review has been opened for this order. Action is needed. Please go to your "
+"<a href=\"%1$s\" title=\"Stripe Dashboard\" target=\"_blank\">Stripe "
+"Dashboard</a> to review the issue. Reason: (%2$s)"
+msgstr ""
+"Une revue a été ouverte pour cette commande. Il faut agir. Veuillez vous "
+"rendre sur votre <a href=\"%1$s\" title=\"Stripe Dashboard\" "
+"target=\"_blank\">Tableau de bord Stripe</a> pour examiner le problème. "
+"Raison : (%2$s)"
+
+#. translators: 1) The reason type.
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:637
+msgid "The opened review for this order is now closed. Reason: (%s)"
+msgstr ""
+
+#. translators: 1) The error message that was received from Stripe.
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:735,
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:782
+msgid "Stripe SCA authentication failed. Reason: %s"
+msgstr "L'authentification SCA de Stripe a échoué. Les raisons : %s"
+
+#. translators: transaction id
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:946,
+#: ../app/Gateways/Stripe/lib/StripeWebhook.php:1064
+msgid ""
+"Charge.succeeded webhook received. Stripe charge complete (Charge ID: %s)"
+msgstr ""
+"Recharge réussie du lien de rappel reçu. Recharge de Stripe terminée (ID de "
+"charge : %s)"
+
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:135
+msgid "No error"
+msgstr "Pas d'erreur"
+
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:139
+msgid "The webhook was missing expected headers"
+msgstr "Le lien de rappel manquait d'en-têtes attendus"
+
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:143
+msgid "The webhook was missing expected body"
+msgstr "Le lien de rappel manquait de corps attendu"
+
+# iement
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:147
+msgid "The webhook received did not come from Stripe"
+msgstr "Le lien de rappel reçu ne vient pas de Stripe"
+
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:151
+msgid "The webhook signature was missing or was incorrectly formatted"
+msgstr ""
+"La signature du lien de rappel était manquante ou n'était pas correctement "
+"formatée"
+
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:155
+msgid ""
+"The timestamp in the webhook differed more than five minutes from the site "
+"time"
+msgstr ""
+"L'horodatage du lien de rappel différait de plus de cinq minutes de l'heure "
+"du site"
+
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:159
+msgid "The webhook was not signed with the expected signing secret"
+msgstr ""
+"Le lien de rappel n'a pas été signé avec la confidentialité de signature "
+"attendue"
+
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:162
+msgid "Unknown error."
+msgstr ""
+
+#. translators: 1) date and time of last webhook received, e.g. 2020-06-28 10:30:50 UTC
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:185
+msgid ""
+"The most recent test webhook, timestamped %s, was processed successfully."
+msgstr ""
+"Le lien de rappel de test le plus récent, horodaté %s, a été traité avec "
+"succès."
+
+#. translators: 1) date and time of last webhook received, e.g. 2020-06-28 10:30:50 UTC
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:187
+msgid ""
+"The most recent live webhook, timestamped %s, was processed successfully."
+msgstr ""
+"Le lien de rappel en direct le plus récent, horodaté %s, a été traité avec "
+"succès."
+
+#. translators: 1) date and time webhook monitoring began, e.g. 2020-06-28 10:30:50 UTC
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:198
+msgid "No test webhooks have been received since monitoring began at %s."
+msgstr ""
+"Aucun lien de rappel de test n'a été reçu depuis le début de la surveillance "
+"à %s."
+
+#. translators: 1) date and time webhook monitoring began, e.g. 2020-06-28 10:30:50 UTC
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:200
+msgid "No live webhooks have been received since monitoring began at %s."
+msgstr ""
+"Aucun lien de rappel en direct n'a été reçu depuis le début de la "
+"surveillance à %s."
+
+#. translators: 3) date and time of last successful webhook e.g. 2020-05-28 10:30:50 UTC
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:215
+msgid ""
+"Warning: The most recent test webhook, received at %1$s, could not be "
+"processed. Reason: %2$s. (The last test webhook to process successfully was "
+"timestamped %3$s.)"
+msgstr ""
+"Avertissement : Le lien de traitement de test le plus récent, reçu à %1$s, "
+"n'a pas pu être traité. Raison : %2$s. (Le dernier lien de traitement de "
+"test à traiter avec succès était horodaté %3$s.)"
+
+#. translators: 3) date and time of last successful webhook e.g. 2020-05-28 10:30:50 UTC
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:221
+msgid ""
+"Warning: The most recent live webhook, received at %1$s, could not be "
+"processed. Reason: %2$s. (The last live webhook to process successfully was "
+"timestamped %3$s.)"
+msgstr ""
+"Avertissement : Le lien de traitement en direct le plus récent, reçu à %1$s, "
+"n'a pas pu être traité. Raison : %2$s. (Le dernier lien de traitement en "
+"direct à être traité avec succès était horodaté %3$s.)"
+
+#. translators: 3) date and time webhook monitoring began e.g. 2020-05-28 10:30:50 UTC
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:236
+msgid ""
+"Warning: The most recent test webhook, received at %1$s, could not be "
+"processed. Reason: %2$s. (No test webhooks have been processed successfully "
+"since monitoring began at %3$s.)"
+msgstr ""
+"Avertissement : Le lien de traitement de test le plus récent, reçu à %1$s, "
+"n'a pas pu être traité. Raison : %2$s. (Aucun lien de traitement de test n'a "
+"été traité avec succès depuis le début de la surveillance à %3$s.)"
+
+#. translators: 3) date and time webhook monitoring began e.g. 2020-05-28 10:30:50 UTC
+#: ../app/Gateways/Stripe/lib/StripeWebhookState.php:241
+msgid ""
+"Warning: The most recent live webhook, received at %1$s, could not be "
+"processed. Reason: %2$s. (No live webhooks have been processed successfully "
+"since monitoring began at %3$s.)"
+msgstr ""
+"Avertissement : Le lien de traitement en direct le plus récent, reçu à %1$s, "
+"n'a pas pu être traité. Raison : %2$s. (Aucun lien de traitement en direct "
+"n'a été traité avec succès depuis le début de la surveillance à %3$s.)"
+
+#: ../app/Gateways/Authorize/lib/Types/SubscriptionType.php:318,
+#: ../app/Gateways/Authorize/lib/Types/SubscriptionType.php:278,
+#: ../app/Gateways/Authorize/lib/Types/SubscriptionType.php:281,
+#: ../app/Gateways/Authorize/lib/Types/SubscriptionType.php:217,
+#: ../app/Gateways/Authorize/lib/Types/SubscriptionType.php:220,
+#: ../app/Gateways/Authorize/lib/Types/TransactionType.php:83
+msgid "Payment object can't be empty"
+msgstr "L'objet de paiement ne peut pas être vide"
+
+#: ../app/Gateways/Authorize/lib/Types/SubscriptionType.php:275,
+#: ../app/Gateways/Authorize/lib/Types/SubscriptionType.php:214,
+#: ../app/Gateways/Authorize/lib/Types/TransactionType.php:77,
+#: ../app/Gateways/Authorize/lib/Types/TransactionType.php:80
+msgid "Order object can't be empty"
+msgstr "L'objet de la commande ne peut pas être vide"
+
+#: ../app/Gateways/Authorize/lib/Types/TransactionType.php:97
+msgid "CreditCard object can't be empty"
+msgstr "L'objet CreditCard ne peut pas être vide"
+
+#: ../templates/single-rtcl_listing-reviews.php:36
+msgid "Reviews"
+msgstr "Commentaires"
+
+#: ../templates/single-rtcl_listing-reviews.php:53,
+#: ../templates/single-rtcl_listing-reviews.php:90
+msgid "Leave Review"
+msgstr "Laisser un avis"
+
+#: ../templates/single-rtcl_listing-reviews.php:79
+msgid "There are no reviews yet."
+msgstr ""
+
+#: ../templates/single-rtcl_listing-reviews.php:90
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr "Soyez le premier à donner votre avis sur &ldquo;%s&rdquo;"
+
+#: ../templates/single-rtcl_listing-reviews.php:91
+msgid "Leave a Reply to %s"
+msgstr "Laisser une réponse aux% s"
+
+#: ../templates/single-rtcl_listing-reviews.php:96
+msgid "Name"
+msgstr "Nom"
+
+#: ../templates/single-rtcl_listing-reviews.php:98
+msgid "Email"
+msgstr "Courriel"
+
+#: ../templates/single-rtcl_listing-reviews.php:101
+msgid "Submit"
+msgstr ""
+
+#: ../templates/single-rtcl_listing-reviews.php:108
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: ../templates/single-rtcl_listing-reviews.php:113
+msgid "Your rating"
+msgstr ""
+
+#: ../templates/single-rtcl_listing-reviews.php:114
+msgid "Rate&hellip;"
+msgstr "Évaluer &hellip;"
+
+#: ../templates/single-rtcl_listing-reviews.php:115
+msgid "Perfect"
+msgstr "Parfait"
+
+#: ../templates/single-rtcl_listing-reviews.php:116
+msgid "Good"
+msgstr "Bien"
+
+#: ../templates/single-rtcl_listing-reviews.php:117
+msgid "Average"
+msgstr "Moyenne"
+
+#: ../templates/single-rtcl_listing-reviews.php:118
+msgid "Not that bad"
+msgstr "Pas si mal"
+
+#: ../templates/single-rtcl_listing-reviews.php:119
+msgid "Very poor"
+msgstr ""
+
+#: ../templates/single-rtcl_listing-reviews.php:123
+msgid "Your review"
+msgstr ""
+
+#: ../templates/compare/content.php:63
+msgid "Review"
+msgstr "Examen"
+
+#: ../templates/compare/popup.php:21, ../templates/compare/popup.php:49,
+#: ../templates/elementor/listing-ads/grid/style-2.php:97,
+#: ../templates/elementor/listing-ads/grid/style-3.php:226,
+#: ../templates/elementor/listing-ads/grid/style-4.php:97,
+#: ../templates/elementor/listing-ads/grid/style-5.php:218,
+#: ../templates/elementor/listing-ads/list/style-2.php:99,
+#: ../templates/elementor/listing-ads/list/style-3.php:97,
+#: ../templates/elementor/listing-ads/list/style-4.php:197,
+#: ../templates/elementor/listing-ads/list/style-5.php:190,
+#: ../templates/elementor/listing-ads-slider/grid/style-1.php:89,
+#: ../templates/elementor/listing-ads-slider/grid/style-2.php:88,
+#: ../templates/elementor/listing-ads-slider/grid/style-3.php:225,
+#: ../templates/elementor/listing-ads-slider/grid/style-4.php:88,
+#: ../templates/elementor/listing-ads-slider/grid/style-5.php:212
+msgid "Compare"
+msgstr "Comparer"
+
+#: ../templates/compare/popup.php:51
+msgid "Clear"
+msgstr "Effacer"
+
+#: ../templates/emails/unread-message.php:27,
+#: ../templates/emails/user-verify-link-email.php:25
+msgid "Hello %s,"
+msgstr "Bonjour %s,"
+
+#: ../templates/emails/unread-message.php:28
+msgid "Latest unread message on ad %s from user %s"
+msgstr "Dernier message non lu sur l'annonce %s de l'utilisateur %s"
+
+#: ../templates/emails/unread-message.php:33
+msgid "Reply To this conversation"
+msgstr "Répondre à cette conversation"
+
+#: ../templates/emails/user-verify-link-email.php:26
+msgid ""
+"Thanks for registering on our site, please <a href='%s' target='_blank'>"
+"click here to confirm your email address</a>."
+msgstr ""
+
+#: ../templates/emails/user-verify-link-email.php:27
+msgid "If you didn't make this request, just ignore this email."
+msgstr "Si vous n'avez pas fait cette demande, ignorez simplement cet email."
+
+#: ../templates/emails/user-verify-link-email.php:28
+msgid "Thanks for reading."
+msgstr ""
+
+#: ../templates/listing/photoswipe.php:28
+msgid "Close (Esc)"
+msgstr "Fermer (Echap)"
+
+#: ../templates/listing/photoswipe.php:29
+msgid "Share"
+msgstr "Partager"
+
+#: ../templates/listing/photoswipe.php:30
+msgid "Toggle fullscreen"
+msgstr ""
+
+#: ../templates/listing/photoswipe.php:31
+msgid "Zoom in/out"
+msgstr ""
+
+#: ../templates/listing/photoswipe.php:43
+msgid "Previous (arrow left)"
+msgstr "Précédent (flèche gauche)"
+
+#: ../templates/listing/photoswipe.php:44
+msgid "Next (arrow right)"
+msgstr "Suivant (flèche droite)"
+
+#: ../templates/listing/review-meta.php:22
+msgid "Your review is awaiting approval"
+msgstr ""
+
+#: ../templates/myaccount/subscription-report.php:18
+msgid "Subscription Report"
+msgstr ""
+
+#: ../templates/myaccount/subscription-report.php:35
+msgid "Name: "
+msgstr "Nom :"
+
+#: ../templates/myaccount/subscription-report.php:39
+msgid "Status: "
+msgstr ""
+
+#: ../templates/myaccount/subscription-report.php:45
+msgid "Renew at: "
+msgstr "Renouveler à :"
+
+#: ../templates/widgets/search.php:38
+msgid "Select a location"
+msgstr "Sélectionner une localisation"
+
+#: ../templates/widgets/search.php:170, ../templates/widgets/search.php:173,
+#: ../templates/elementor/search/fields/types-field.php:33
+msgid "Select type"
+msgstr "Sélectionner le genre"
+
+#: ../templates/widgets/search.php:190
+msgid "Price Range"
+msgstr "Échelle des prix"
+
+#: ../templates/widgets/search.php:194,
+#: ../templates/elementor/search/fields/price-field.php:33
+msgid "min"
+msgstr "mini"
+
+#: ../templates/widgets/search.php:201,
+#: ../templates/elementor/search/fields/price-field.php:40
+msgid "max"
+msgstr "maxi"
+
+#: ../templates/widgets/search.php:213
+msgid "Enter your keyword here ..."
+msgstr "Entrez votre mot-clé ici..."
+
+#. translators: %s: Category term
+#: ../templates/elementor/listing-cat-box/grid-style-2.php:43,
+#: ../templates/elementor/listing-cat-slider/grid-style-1.php:42,
+#: ../templates/elementor/listing-cat-slider/grid-style-2.php:40
+msgid "View all posts in %s"
+msgstr ""
+
+#: ../templates/elementor/listing-cat-slider/grid-style-1.php:90,
+#: ../templates/elementor/listing-cat-slider/grid-style-2.php:96
+msgid "Ads"
+msgstr "Annonces"
+
+#: ../templates/elementor/single-location/grid-style-3.php:14
+msgctxt "Number of Ads"
+msgid "%s Ad"
+msgid_plural "%s Ads"
+msgstr[0] "%s Annonce"
+msgstr[1] "%s Annonces"
+
+#: ../templates/elementor/listing-ads/grid/style-2.php:73,
+#: ../templates/elementor/listing-ads/grid/style-3.php:201,
+#: ../templates/elementor/listing-ads/grid/style-4.php:73,
+#: ../templates/elementor/listing-ads/grid/style-5.php:198,
+#: ../templates/elementor/listing-ads/list/style-2.php:74,
+#: ../templates/elementor/listing-ads/list/style-3.php:72,
+#: ../templates/elementor/listing-ads/list/style-4.php:178,
+#: ../templates/elementor/listing-ads/list/style-5.php:171,
+#: ../templates/elementor/listing-ads-slider/grid/style-1.php:65,
+#: ../templates/elementor/listing-ads-slider/grid/style-2.php:63,
+#: ../templates/elementor/listing-ads-slider/grid/style-3.php:200,
+#: ../templates/elementor/listing-ads-slider/grid/style-4.php:63,
+#: ../templates/elementor/listing-ads-slider/grid/style-5.php:191
+msgid "Quick View"
+msgstr "Aperçu Rapide"
+
+#. translators: %s: views count
+#: ../templates/elementor/listing-ads/grid/style-2.php:179,
+#: ../templates/elementor/listing-ads/grid/style-3.php:123,
+#: ../templates/elementor/listing-ads/grid/style-4.php:181,
+#: ../templates/elementor/listing-ads/grid/style-5.php:123,
+#: ../templates/elementor/listing-ads/list/style-2.php:170,
+#: ../templates/elementor/listing-ads/list/style-3.php:168,
+#: ../templates/elementor/listing-ads/list/style-4.php:107,
+#: ../templates/elementor/listing-ads/list/style-5.php:105,
+#: ../templates/elementor/listing-ads-slider/grid/style-1.php:161,
+#: ../templates/elementor/listing-ads-slider/grid/style-2.php:172,
+#: ../templates/elementor/listing-ads-slider/grid/style-3.php:119,
+#: ../templates/elementor/listing-ads-slider/grid/style-4.php:174,
+#: ../templates/elementor/listing-ads-slider/grid/style-5.php:117
+msgid "%s view"
+msgid_plural "%s views"
+msgstr[0] "%s Vue"
+msgstr[1] "%s Vues"
+
+#: ../templates/elementor/listing-ads/grid/style-3.php:177,
+#: ../templates/elementor/listing-ads/list/style-4.php:162,
+#: ../templates/elementor/listing-ads/list/style-5.php:156,
+#: ../templates/elementor/listing-ads-slider/grid/style-3.php:176
+msgid "Show Phone No"
+msgstr "Afficher le numéro de téléphone"
+
+#: ../templates/elementor/listing-ads/list/style-2.php:219
+msgid "Details"
+msgstr "Détails"
+
+#: ../templates/elementor/search/fields/price-field.php:30
+msgid "Min Price"
+msgstr "Prix minimum"
+
+#: ../templates/elementor/search/fields/price-field.php:37
+msgid "Max Price"
+msgstr "Prix maximum"

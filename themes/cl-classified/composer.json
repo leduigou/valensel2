@@ -1,0 +1,15 @@
+{
+  "name": "radiustheme/cl-classified",
+  "authors": [
+    {
+      "name": "RadiusTheme",
+      "email": "radiustheme@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "RadiusTheme\\ClassifiedLite\\": "inc"
+    }
+  },
+  "description": ""
+}
